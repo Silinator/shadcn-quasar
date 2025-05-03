@@ -23,7 +23,7 @@ const count = ref(0)
       >create-vue</a
     >, the official Vue + Vite starter
   </p>
-  <p>
+  <p class="text-red-500">
     Learn more about IDE Support for Vue in the
     <a
       href="https://vuejs.org/guide/scaling-up/tooling.html#ide-support"
