@@ -1,30 +1,22 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import Avatar from '@/components/ui/avatar/Avatar.vue';
+import Icon from './components/ui/icon/Icon.vue';
 </script>
 
 <template>
-  <div class="flex justify-center">
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div class="flex gap-4">
+    <Icon name="home" variant="sharp" size="xs" class="text-red-500" />
+    <Icon name="home" variant="rounded" size="sm" class="text-red-500" />
+    <Icon name="home" variant="rounded" filled size="md" class="text-red-500" />
+    <Icon name="home" variant="outlined" size="lg" class="text-red-500" />
+    <Icon name="home" variant="outlined" filled size="xl" class="text-red-500" />
   </div>
-  <HelloWorld msg="Vite + Vue" />
-</template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+  <div class="flex gap-4">
+    <Avatar size="xs">J</Avatar>
+    <Avatar size="sm">J</Avatar>
+    <Avatar rounded class="bg-red-500">GHA</Avatar>
+    <Avatar square size="lg">J</Avatar>
+    <Avatar size="xl"><img src="https://cdn.quasar.dev/img/avatar.png" /></Avatar>
+  </div>
+</template>
