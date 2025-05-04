@@ -65,6 +65,7 @@
   --accent-foreground: hsl(0 0% 9%);
   --destructive: hsl(0 84.2% 60.2%);
   --destructive-foreground: hsl(0 0% 98%);
+  --radius: 0.5rem;
 }
 
 .dark {
