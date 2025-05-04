@@ -6,7 +6,6 @@ A [Shadcn/vue](https://www.shadcn-vue.com/docs/installation/vite) style implemen
 
 Components:
 
-- ❌ Mercury
 - ❌ Ajax Bar
 - ✅ Avatar
 - ❌ Badge
