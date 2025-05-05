@@ -139,14 +139,14 @@ export const Indicator: Story = {
       return { args };
     },
     template: `
-    <div class="flex items-center gap-2">
-      <Badge v-bind="args">${args.default}</Badge>Status
-    <div>
+      <div class="flex items-center gap-2">
+        <Badge v-bind="args">${args.default}</Badge> Status
+      <div>
     `,
   }),
   args: {
     class: 'bg-green-400',
     rounded: true,
-    default: ``,
+    default: '',
   },
 };
