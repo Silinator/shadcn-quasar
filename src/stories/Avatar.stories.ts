@@ -79,7 +79,7 @@ export const WithIcon: Story = {
   args: {
     class: 'bg-green-500',
     size: 'xl',
-    default: `<Icon name="directions" filled size="md" class="text-white" />`,
+    default: `<Icon name="directions" filled size="md" class="text-primary-foreground" />`,
   },
 };
 
@@ -110,6 +110,6 @@ export const CustomSize: Story = {
   }),
   args: {
     class: 'h-24 w-24 text-6xl',
-    default: `<Icon name="directions" filled size="xl" class="text-white" />`,
+    default: `<Icon name="directions" filled size="xl" class="text-primary-foreground" />`,
   },
 };

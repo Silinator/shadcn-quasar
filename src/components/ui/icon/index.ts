@@ -10,6 +10,7 @@ export const iconVariants = cva('pointer-events-none select-none', {
       sharp: 'mui-symbols mui-symbols-sharp',
     },
     size: {
+      inherit: 'text-inherit',
       xs: 'text-lg',
       sm: 'text-2xl',
       md: 'text-3xl',
@@ -19,7 +20,7 @@ export const iconVariants = cva('pointer-events-none select-none', {
   },
   defaultVariants: {
     variant: 'rounded',
-    size: 'md',
+    size: 'inherit',
   },
 });
 

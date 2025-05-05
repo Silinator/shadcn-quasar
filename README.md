@@ -8,7 +8,7 @@ Components:
 
 - ❌ Ajax Bar
 - ✅ Avatar
-- ❌ Badge
+- ✅ Badge
 - ❌ Banner
 - ❌ Bar
 - ❌ Breadcrumbs

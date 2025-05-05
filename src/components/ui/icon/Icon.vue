@@ -15,7 +15,7 @@ interface Props {
 const props = withDefaults(defineProps<Props>(), {
   filled: false,
   variant: 'rounded',
-  size: 'md',
+  size: 'inherit',
 });
 </script>
 

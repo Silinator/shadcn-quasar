@@ -14,6 +14,7 @@
     "build-storybook": "storybook build -o docs"
   },
   "dependencies": {
+    "@fontsource-variable/roboto": "^5.2.5",
     "@storybook/addon-themes": "^8.6.12",
     "@tailwindcss/vite": "^4.1.5",
     "class-variance-authority": "^0.7.1",

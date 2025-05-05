@@ -13,12 +13,14 @@ type Story = StoryObj<typeof meta>;
 export const Basic: Story = {
   args: {
     name: 'font_download',
+    size: 'md',
   },
 };
 
 export const BasicCustomColors: Story = {
   args: {
     name: 'font_download',
+    size: 'md',
     class: 'text-blue-500',
   },
 };
@@ -26,6 +28,7 @@ export const BasicCustomColors: Story = {
 export const Filled: Story = {
   args: {
     name: 'font_download',
+    size: 'md',
     filled: true,
   },
 };
@@ -33,6 +36,7 @@ export const Filled: Story = {
 export const Outlined: Story = {
   args: {
     name: 'font_download',
+    size: 'md',
     variant: 'outlined',
   },
 };
@@ -40,6 +44,7 @@ export const Outlined: Story = {
 export const Sharp: Story = {
   args: {
     name: 'font_download',
+    size: 'md',
     variant: 'sharp',
   },
 };
