@@ -132,7 +132,7 @@ export const Rounded: Story = {
   },
 };
 
-export const Indicator: Story = {
+export const Indicators: Story = {
   render: (args) => ({
     components: { Badge },
     setup() {
@@ -140,7 +140,8 @@ export const Indicator: Story = {
     },
     template: `
       <div class="flex items-center gap-2">
-        <Badge v-bind="args"></Badge> Status
+        Status
+        <Badge v-bind="args"></Badge>
       <div>
     `,
   }),
