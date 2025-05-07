@@ -132,7 +132,7 @@ export const Rounded: Story = {
   },
 };
 
-export const Indicators: Story = {
+export const Baum: Story = {
   render: (args) => ({
     components: { Badge },
     setup() {
