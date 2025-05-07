@@ -132,19 +132,21 @@ export const Rounded: Story = {
   },
 };
 
-export const Baum: Story = {
+export const Indicators: Story = {
   render: (args) => ({
     components: { Badge },
     setup() {
       return { args };
     },
     template: `
+      <div class="flex items-center gap-2">
+        Status
         <Badge v-bind="args">${args.default}</Badge>
-      `,
+      </div>
+    `,
   }),
   args: {
-    class: 'bg-red-600',
-    rounded: true,
-    default: `Round`,
+    class: 'bg-green-400',
+    default: ``,
   },
 };
