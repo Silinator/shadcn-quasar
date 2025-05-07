@@ -1,4 +1,5 @@
-import Avatar from '@/components/ui/avatar/Avatar.vue';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import Badge from '@/components/ui/badge/Badge.vue';
 import Icon from '@/components/ui/icon/Icon.vue';
 import type { Meta, StoryObj } from '@storybook/vue3';
 
@@ -83,9 +84,50 @@ export const WithIcon: Story = {
   },
 };
 
-export const WithImg: Story = {
+export const WithBadge: Story = {
   render: (args) => ({
-    components: { Avatar, Icon },
+    components: { Avatar, Badge },
+    setup: () => ({ args }),
+    template: `
+      <Avatar v-bind="args">
+        ${args.default}
+      </Avatar>
+    `,
+  }),
+  args: {
+    class: 'bg-green-500',
+    size: 'xl',
+    default: `
+      J
+      <Badge floating rounded class="bg-blue-600">2</Badge>
+    `,
+  },
+};
+
+export const WithIconAndBadge: Story = {
+  render: (args) => ({
+    components: { Avatar, Icon, Badge },
+    setup: () => ({ args }),
+    template: `
+      <Avatar v-bind="args">
+        ${args.default}
+      </Avatar>
+    `,
+  }),
+  args: {
+    class: 'bg-orange-500',
+    size: 'xl',
+    square: true,
+    default: `
+      <Icon name="directions" filled size="md" class="text-primary-foreground" />
+      <Badge floating rounded class="bg-green-500"></Badge>
+    `,
+  },
+};
+
+export const WithSimpleImg: Story = {
+  render: (args) => ({
+    components: { Avatar },
     setup: () => ({ args }),
     template: `
       <Avatar v-bind="args">
@@ -97,6 +139,47 @@ export const WithImg: Story = {
     class: 'bg-green-500',
     size: 'xl',
     default: `<img src="https://cdn.quasar.dev/img/avatar.png" />`,
+  },
+};
+
+export const WithImgFallback: Story = {
+  render: (args) => ({
+    components: { Avatar, AvatarFallback, AvatarImage },
+    setup: () => ({ args }),
+    template: `
+      <Avatar v-bind="args">
+        ${args.default}
+      </Avatar>
+    `,
+  }),
+  args: {
+    class: 'bg-cyan-500',
+    size: 'xl',
+    default: `
+      <AvatarImage src="https://cdn.quasar.dev/img/avatar-fail.png" />
+      <AvatarFallback>J</AvatarFallback>
+    `,
+  },
+};
+
+export const WithImgFallbackAndBadge: Story = {
+  render: (args) => ({
+    components: { Avatar, AvatarFallback, AvatarImage, Badge },
+    setup: () => ({ args }),
+    template: `
+      <Avatar v-bind="args">
+        ${args.default}
+      </Avatar>
+    `,
+  }),
+  args: {
+    class: 'bg-cyan-500',
+    size: 'xl',
+    default: `
+      <AvatarImage src="https://cdn.quasar.dev/img/avatar.png" />
+      <AvatarFallback>J</AvatarFallback>
+      <Badge floating class="bg-red-600">99+</Badge>
+    `,
   },
 };
 

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { cn } from '@/lib/utils';
+import { AvatarRoot } from 'reka-ui';
 import { computed, type HTMLAttributes } from 'vue';
 import { avatarVariants, type AvatarVariants } from '.';
 
@@ -24,7 +25,7 @@ const variant = computed<AvatarVariants['variant']>(() => {
 </script>
 
 <template>
-  <div :class="cn(avatarVariants({ variant, size }), props.class)">
+  <AvatarRoot data-slot="avatar" :class="cn(avatarVariants({ variant, size }), props.class)">
     <slot />
-  </div>
+  </AvatarRoot>
 </template>
