@@ -23,6 +23,7 @@ export const Basic: Story = {
     `,
   }),
   args: {
+    class: 'bg-blue-500 text-white',
     default: `#007ABF`,
   },
 };
@@ -40,6 +41,135 @@ export const BasisCustomColors: Story = {
   args: {
     class: 'bg-orange-400 text-white',
     default: `Bookmark`,
+  },
+};
+
+export const Square: Story = {
+  render: (args) => ({
+    components: { Chip },
+    setup() {
+      return { args };
+    },
+    template: `
+      <Chip v-bind="args">${args.default}</Chip>
+    `,
+  }),
+  args: {
+    class: 'bg-red-500 text-white',
+    square: true,
+    default: `Bookmark`,
+  },
+};
+
+export const Outline: Story = {
+  render: (args) => ({
+    components: { Chip },
+    setup() {
+      return { args };
+    },
+    template: `
+      <Chip v-bind="args">${args.default}</Chip>
+    `,
+  }),
+  args: {
+    class: 'text-emerald-500',
+    outline: true,
+    default: `Bookmark`,
+  },
+};
+
+export const OutlineSquared: Story = {
+  render: (args) => ({
+    components: { Chip },
+    setup() {
+      return { args };
+    },
+    template: `
+      <Chip v-bind="args">${args.default}</Chip>
+    `,
+  }),
+  args: {
+    class: 'text-amber-700',
+    outline: true,
+    square: true,
+    default: `Bookmark`,
+  },
+};
+
+export const disabled: Story = {
+  render: (args) => ({
+    components: { Chip },
+    setup() {
+      return { args };
+    },
+    template: `
+      <Chip v-bind="args">${args.default}</Chip>
+    `,
+  }),
+  args: {
+    class: 'bg-rose-700 text-white',
+    disable: true,
+    default: `Bookmark`,
+  },
+};
+
+export const dense: Story = {
+  render: (args) => ({
+    components: { Chip },
+    setup() {
+      return { args };
+    },
+    template: `
+      <Chip v-bind="args">${args.default}</Chip>
+    `,
+  }),
+  args: {
+    class: 'bg-fuchsia-800 text-white',
+    dense: true,
+    default: `Bookmark`,
+  },
+};
+
+export const DiffrentSizes: Story = {
+  render: (args) => ({
+    components: { Chip, Icon },
+    setup() {
+      return { args };
+    },
+    template: `
+      <Chip v-bind="args">${args.default}</Chip>
+      <Chip v-bind="args" size="sm">${args.default}</Chip>
+      <Chip v-bind="args" size="md">${args.default}</Chip>
+      <Chip v-bind="args" size="lg">${args.default}</Chip>
+      <Chip v-bind="args" size="xl">${args.default}</Chip>
+      <br />
+      <Chip v-bind="args" dense >${args.default}</Chip>
+      <Chip v-bind="args" dense size="sm">${args.default}</Chip>
+      <Chip v-bind="args" dense size="md">${args.default}</Chip>
+      <Chip v-bind="args" dense size="lg">${args.default}</Chip>
+      <Chip v-bind="args" dense size="xl">${args.default}</Chip>
+    `,
+  }),
+  args: {
+    class: 'bg-green-300 text-white',
+    size: 'xs',
+    default: `<Icon filled name="bookmark" /> Bookmark`,
+  },
+};
+
+export const CustomSize: Story = {
+  render: (args) => ({
+    components: { Chip, Icon },
+    setup() {
+      return { args };
+    },
+    template: `
+      <Chip v-bind="args">${args.default}</Chip>
+    `,
+  }),
+  args: {
+    class: 'bg-green-300 text-white text-6xl',
+    default: `<Icon filled name="bookmark" /> Bookmark`,
   },
 };
 
@@ -123,6 +253,32 @@ export const BasisWithChipWithRemove: Story = {
     'onUpdate:modelValue': fn(),
     class: 'bg-blue-400',
     selected: true,
+    default: `
+      <ChipIcon name="bluetooth" iconSelected="check_circle"/>
+      Bluetooth
+      <ChipRemoveButton filled />
+    `,
+  },
+};
+
+export const OutlinedWithChipWithRemove: Story = {
+  render: (args) => ({
+    components: { Chip, ChipIcon, ChipRemoveButton },
+    setup() {
+      return { args };
+    },
+    template: `
+      <Chip v-model:selected="args.selected" v-bind="args">${args.default}</Chip>
+    `,
+  }),
+  args: {
+    onClick: fn(),
+    'onUpdate:selected': fn(),
+    onRemove: fn(),
+    'onUpdate:modelValue': fn(),
+    class: 'text-blue-600',
+    selected: true,
+    outline: true,
     default: `
       <ChipIcon name="bluetooth" iconSelected="check_circle"/>
       Bluetooth

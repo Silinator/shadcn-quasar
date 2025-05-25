@@ -9,8 +9,8 @@ export const chipVariants = cva(
   {
     variants: {
       dense: {
-        true: 'h-5 px-0.5 py-0',
-        false: 'h-7 px-3 py-2',
+        true: 'h-[1.5em] px-[0.4em] py-0',
+        false: 'h-[2em] px-[0.9em] py-[0.5em]',
       },
       square: {
         true: 'rounded-lg',

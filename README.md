@@ -19,7 +19,7 @@ Components:
 - ❌ Card
 - ❌ Carousel
 - ❌ Chat Message
-- ❌ Chip
+- ✅ Chip
 - ❌ Circular Progress
 - ❌ Color Picker
 - ❌ Dialog

@@ -67,8 +67,9 @@ function onRemove() {
 provide('onRemove', onRemove);
 
 const selected = toRef(props, 'selected');
-const disable = toRef(props, 'disable');
 provide('chipSelected', selected);
+
+const disable = toRef(props, 'disable');
 provide('chipDisable', disable);
 </script>
 
@@ -81,7 +82,7 @@ provide('chipDisable', disable);
     @click="onClick"
     @keyup="onKeyup"
     v-wave="{ ...(ripple && !disable ? {} : { disabled: true }) }"
-    :class="cn(chipVariants({ dense, square, outline, isClickable, disable }), props.class)"
+    :class="cn(chipVariants({ dense, square, outline, size, isClickable, disable }), props.class)"
   >
     <slot />
   </div>
