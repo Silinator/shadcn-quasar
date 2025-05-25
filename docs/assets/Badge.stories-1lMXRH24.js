@@ -1,4 +1,4 @@
-import{_ as n}from"./Badge-DzP_6inN.js";import{I as E}from"./Icon-B5wH_WmI.js";import"./vue.esm-bundler-egrY_yfx.js";const q={title:"UI/Badge",component:n,tags:["autodocs"]},a={render:e=>({components:{Badge:n},setup(){return{args:e}},template:`
+import{_ as n}from"./Badge-CByCDuKc.js";import{I as E}from"./Icon-BrGviInw.js";import"./vue.esm-bundler-egrY_yfx.js";const q={title:"UI/Badge",component:n,tags:["autodocs"]},a={render:e=>({components:{Badge:n},setup(){return{args:e}},template:`
       <Badge v-bind="args">${e.default}</Badge>
     `}),args:{default:"#007ABF"}},r={render:e=>({components:{Badge:n},setup(){return{args:e}},template:`
       <Badge v-bind="args">${e.default}</Badge>
