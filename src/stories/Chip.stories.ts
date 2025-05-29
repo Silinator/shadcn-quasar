@@ -1,7 +1,7 @@
 import { Chip, ChipIcon, ChipRemoveButton } from '@/components/ui/chip';
 import Icon from '@/components/ui/icon/Icon.vue';
-import { fn } from '@storybook/test';
-import type { Meta, StoryObj } from '@storybook/vue3';
+import { fn } from 'storybook/test';
+import type { Meta, StoryObj } from '@storybook/vue3-vite';
 
 const meta: Meta<typeof Chip> = {
   title: 'UI/Chip',

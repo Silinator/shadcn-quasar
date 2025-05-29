@@ -1,5 +1,5 @@
 import Icon from '@/components/ui/icon/Icon.vue';
-import type { Meta, StoryObj } from '@storybook/vue3';
+import type { Meta, StoryObj } from '@storybook/vue3-vite';
 
 const meta: Meta<typeof Icon> = {
   title: 'UI/Icon',

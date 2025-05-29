@@ -1,7 +1,7 @@
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import Badge from '@/components/ui/badge/Badge.vue';
 import Icon from '@/components/ui/icon/Icon.vue';
-import type { Meta, StoryObj } from '@storybook/vue3';
+import type { Meta, StoryObj } from '@storybook/vue3-vite';
 
 const meta: Meta<typeof Avatar> = {
   title: 'UI/Avatar',
