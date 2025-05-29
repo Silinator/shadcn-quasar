@@ -1,6 +1,6 @@
 <script setup lang="ts">
+import ripple from '@/lib/directives/ripple';
 import { cn } from '@/lib/utils';
-import VWave from 'v-wave';
 import { computed, provide, toRef, type HTMLAttributes } from 'vue';
 import { chipVariants, type ChipVariants } from '.';
 
@@ -28,10 +28,8 @@ const props = withDefaults(defineProps<Props>(), {
   disable: false,
 });
 
-const { wave: vWave } = VWave.createLocalWaveDirective({
-  initialOpacity: 0.3,
-  finalOpacity: 0.2,
-  duration: 0.35,
+defineOptions({
+  directives: { ripple },
 });
 
 const isClickable = computed(() => {
@@ -44,10 +42,6 @@ const emit = defineEmits<{
   (e: 'click', event: MouseEvent | KeyboardEvent): void;
   (e: 'remove'): void;
 }>();
-
-function onKeyup(event: KeyboardEvent) {
-  event.key === 'Enter' && onClick(event);
-}
 
 function onClick(event: MouseEvent | KeyboardEvent) {
   if (!isClickable.value) {
@@ -80,8 +74,8 @@ provide('chipDisable', disable);
     :aria-disabled="props.disable ? 'true' : undefined"
     :tabindex="isClickable ? 0 : undefined"
     @click="onClick"
-    @keyup="onKeyup"
-    v-wave="{ ...(ripple && !disable ? {} : { disabled: true }) }"
+    @keyup.enter="onClick"
+    v-ripple="{ ...(props.ripple && !props.disable ? {} : { disabled: true }) }"
     :class="cn(chipVariants({ dense, square, outline, size, isClickable, disable }), props.class)"
   >
     <slot />

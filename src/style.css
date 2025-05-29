@@ -66,6 +66,9 @@
   --destructive: hsl(0 84.2% 60.2%);
   --destructive-foreground: hsl(0 0% 98%);
   --radius: 0.5rem;
+  --ripple-initial-opacity: 0.3;
+  --ripple-final-opacity: 0.2;
+  --ripple-duration: 0.35;
 }
 
 .dark {
