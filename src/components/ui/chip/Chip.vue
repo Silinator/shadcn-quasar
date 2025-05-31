@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import ripple from '@/lib/directives/ripple';
 import { cn } from '@/lib/utils';
+import { Primitive, type PrimitiveProps } from 'reka-ui';
 import { computed, provide, toRef, type HTMLAttributes } from 'vue';
 import { chipVariants, type ChipVariants } from '.';
 
-interface Props {
+interface Props extends PrimitiveProps {
   modelValue?: boolean;
   selected?: boolean | null;
   dense?: boolean;
@@ -18,6 +19,8 @@ interface Props {
 }
 
 const props = withDefaults(defineProps<Props>(), {
+  as: 'div',
+  asChild: false,
   modelValue: true,
   selected: null,
   dense: false,
@@ -68,8 +71,10 @@ provide('chipDisable', disable);
 </script>
 
 <template>
-  <div
+  <Primitive
     v-if="props.modelValue"
+    :as="props.as"
+    :asChild="props.asChild"
     :role="isClickable ? 'button' : undefined"
     :aria-disabled="props.disable ? 'true' : undefined"
     :tabindex="isClickable ? 0 : undefined"
@@ -79,5 +84,5 @@ provide('chipDisable', disable);
     :class="cn(chipVariants({ dense, square, outline, size, isClickable, disable }), props.class)"
   >
     <slot />
-  </div>
+  </Primitive>
 </template>
