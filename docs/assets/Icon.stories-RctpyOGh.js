@@ -1,4 +1,4 @@
-import{I as B}from"./Icon-CeZgD9zQ.js";import"./iframe-IBiDiJ2h.js";const b={title:"UI/Icon",component:B,tags:["autodocs"]},a={args:{name:"font_download",size:"md"}},e={args:{name:"font_download",size:"md",class:"text-blue-500"}},s={args:{name:"font_download",size:"md",filled:!0}},o={args:{name:"font_download",size:"md",variant:"outlined"}},r={args:{name:"font_download",size:"md",variant:"sharp"}},n={args:{name:"font_download",class:"text-8xl"}};var t,d,c;a.parameters={...a.parameters,docs:{...(t=a.parameters)==null?void 0:t.docs,source:{originalSource:`{
+import{I as B}from"./Icon-CWK44FWs.js";import"./iframe-dsDNp8sV.js";const b={title:"UI/Icon",component:B,tags:["autodocs"]},a={args:{name:"font_download",size:"md"}},e={args:{name:"font_download",size:"md",class:"text-blue-500"}},s={args:{name:"font_download",size:"md",filled:!0}},o={args:{name:"font_download",size:"md",variant:"outlined"}},r={args:{name:"font_download",size:"md",variant:"sharp"}},n={args:{name:"font_download",class:"text-8xl"}};var t,d,c;a.parameters={...a.parameters,docs:{...(t=a.parameters)==null?void 0:t.docs,source:{originalSource:`{
   args: {
     name: 'font_download',
     size: 'md'

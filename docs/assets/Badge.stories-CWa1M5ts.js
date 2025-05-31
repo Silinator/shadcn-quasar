@@ -1,4 +1,4 @@
-import{_ as n}from"./Badge-Chi-Ijkn.js";import{I as E}from"./Icon-CeZgD9zQ.js";import"./iframe-IBiDiJ2h.js";const q={title:"UI/Badge",component:n,tags:["autodocs"]},a={render:e=>({components:{Badge:n},setup(){return{args:e}},template:`
+import{_ as n}from"./Badge-BymUVHSD.js";import{I as E}from"./Icon-CWK44FWs.js";import"./iframe-dsDNp8sV.js";import"./Primitive-CQo_fuJn.js";const w={title:"UI/Badge",component:n,tags:["autodocs"]},a={render:e=>({components:{Badge:n},setup(){return{args:e}},template:`
       <Badge v-bind="args">${e.default}</Badge>
     `}),args:{default:"#007ABF"}},r={render:e=>({components:{Badge:n},setup(){return{args:e}},template:`
       <Badge v-bind="args">${e.default}</Badge>
@@ -180,4 +180,4 @@ import{_ as n}from"./Badge-Chi-Ijkn.js";import{I as E}from"./Icon-CeZgD9zQ.js";i
     class: 'bg-green-400',
     default: \`\`
   }
-}`,...(W=(F=u.parameters)==null?void 0:F.docs)==null?void 0:W.source}}};const w=["Basic","BasisCustomColors","BasisWithIcon","Aligned","Transparant","OutlineDesign","Rounded","Indicators"];export{t as Aligned,a as Basic,r as BasisCustomColors,s as BasisWithIcon,u as Indicators,o as OutlineDesign,g as Rounded,d as Transparant,w as __namedExportsOrder,q as default};
+}`,...(W=(F=u.parameters)==null?void 0:F.docs)==null?void 0:W.source}}};const z=["Basic","BasisCustomColors","BasisWithIcon","Aligned","Transparant","OutlineDesign","Rounded","Indicators"];export{t as Aligned,a as Basic,r as BasisCustomColors,s as BasisWithIcon,u as Indicators,o as OutlineDesign,g as Rounded,d as Transparant,z as __namedExportsOrder,w as default};
