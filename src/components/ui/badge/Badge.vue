@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import { cn } from '@/lib/utils';
+import { Primitive, type PrimitiveProps } from 'reka-ui';
 import { type HTMLAttributes } from 'vue';
 import { badgeVariants, type BadgeVariants } from '.';
 
-interface Props {
+interface Props extends PrimitiveProps {
   outline?: boolean;
   rounded?: boolean;
   transparent?: boolean;
@@ -14,6 +15,8 @@ interface Props {
 }
 
 const props = withDefaults(defineProps<Props>(), {
+  as: 'div',
+  asChild: false,
   outline: false,
   rounded: false,
   transparent: false,
@@ -24,7 +27,11 @@ const props = withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-  <div :class="cn(badgeVariants({ outline, rounded, transparent, floating, multiLine, align }), props.class)">
+  <Primitive
+    :as="props.as"
+    :asChild="props.asChild"
+    :class="cn(badgeVariants({ outline, rounded, transparent, floating, multiLine, align }), props.class)"
+  >
     <slot />
-  </div>
+  </Primitive>
 </template>
