@@ -1,4 +1,4 @@
-import Spinner from '@/components/ui/spinner/Spinner.vue';
+import { Spinner } from '@/components/ui/spinner';
 import type { Meta, StoryObj } from '@storybook/vue3-vite';
 
 const meta: Meta<typeof Spinner> = {

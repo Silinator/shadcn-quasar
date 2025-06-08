@@ -1,4 +1,4 @@
-import{_ as n}from"./Badge-D-REDBDt.js";import{_ as i}from"./Button-cMxg6w8I.js";import{I as N}from"./Icon-O7NWBn5v.js";import"./iframe-C9v5PUFN.js";import"./_plugin-vue_export-helper-CqjgSE-H.js";import"./Primitive-B5P5UQwa.js";import"./ripple-CsoxYJ_M.js";const ne={title:"UI/Badge",component:n,tags:["autodocs"]},a={render:e=>({components:{Badge:n},setup(){return{args:e}},template:`
+import{_ as n}from"./Badge-DZ6ELdH6.js";import{_ as i}from"./Button-STmueSeK.js";import{I as N}from"./Icon-D56BWSRc.js";import"./iframe-C1HviS3W.js";import"./_plugin-vue_export-helper-CqjgSE-H.js";import"./Primitive-BQGH_Y9r.js";import"./ripple-CsoxYJ_M.js";const ne={title:"UI/Badge",component:n,tags:["autodocs"]},a={render:e=>({components:{Badge:n},setup(){return{args:e}},template:`
       <Badge v-bind="args">${e.default}</Badge>
     `}),args:{default:"#007ABF"}},t={render:e=>({components:{Badge:n},setup(){return{args:e}},template:`
       <Badge v-bind="args">${e.default}</Badge>
