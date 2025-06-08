@@ -1,7 +1,7 @@
 import { cva, type VariantProps } from 'class-variance-authority';
 
 export { default as Badge } from './Badge.vue';
-export const badgeVariants = cva('bg-primary text-primary-foreground inline-flex min-h-3 items-center px-1.5 py-0.5 text-xs', {
+export const badgeVariants = cva('bg-primary text-primary-foreground relative inline-flex min-h-3 items-center px-1.5 py-0.5 text-xs', {
   variants: {
     outline: {
       true: 'text-primary border border-current bg-transparent',
