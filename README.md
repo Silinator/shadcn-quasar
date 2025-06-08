@@ -13,7 +13,7 @@ Components:
 - ❌ Bar
 - ❌ Breadcrumbs
 - ❌ Buttons
-  - ❌ Button
+  - 🚧 Button
   - ❌ Button Group
   - ❌ Dropdown Button
 - ❌ Card
@@ -64,7 +64,7 @@ Components:
 - ❌ Slide Item
 - ❌ Slide Transition
 - ❌ Space
-- ❌ Spinners
+- 🚧 Spinners
 - ❌ Splitter
 - ❌ Stepper
 - ❌ Table
