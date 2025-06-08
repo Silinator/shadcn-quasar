@@ -61,7 +61,7 @@ export const BasisWithIcon: Story = {
 
 export const Floating: Story = {
   render: (args) => ({
-    components: { Badge, Icon, Button },
+    components: { Badge, Button },
     setup() {
       return { args };
     },
@@ -95,7 +95,7 @@ export const FloatingIndicators: Story = {
 
 export const Transparent: Story = {
   render: (args) => ({
-    components: { Badge, Icon, Button },
+    components: { Badge, Button },
     setup() {
       return { args };
     },
