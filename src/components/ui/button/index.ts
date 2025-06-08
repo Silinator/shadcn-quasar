@@ -2,7 +2,7 @@ import { cva, type VariantProps } from 'class-variance-authority';
 
 export { default as Button } from './Button.vue';
 export const buttonVariants = cva(
-  'bg-primary text-primary-foreground relative inline-flex cursor-pointer items-center gap-3 overflow-hidden text-center font-medium select-none',
+  'bg-primary text-primary-foreground relative inline-flex cursor-pointer items-center gap-3 text-center font-medium select-none',
   {
     variants: {
       outline: {
