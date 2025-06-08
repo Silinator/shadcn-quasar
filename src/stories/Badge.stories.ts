@@ -1,4 +1,5 @@
 import Badge from '@/components/ui/badge/Badge.vue';
+import Button from '@/components/ui/button/Button.vue';
 import Icon from '@/components/ui/icon/Icon.vue';
 import type { Meta, StoryObj } from '@storybook/vue3-vite';
 
@@ -55,6 +56,58 @@ export const BasisWithIcon: Story = {
   args: {
     class: 'bg-purple-400',
     default: `<Icon name="bluetooth" class="text-primary-foreground" />`,
+  },
+};
+
+export const Floating: Story = {
+  render: (args) => ({
+    components: { Badge, Icon, Button },
+    setup() {
+      return { args };
+    },
+    template: `
+      <Button> Button <Badge v-bind="args">${args.default}</Badge> </Button> 
+    `,
+  }),
+  args: {
+    class: 'bg-cyan-600 text-white',
+    floating: true,
+    default: `22`,
+  },
+};
+
+export const FloatingIndicators: Story = {
+  render: (args) => ({
+    components: { Badge, Icon, Button },
+    setup() {
+      return { args };
+    },
+    template: `
+      <Button round> <Icon name="notifications" size="sm" filled class="text-primary-foreground" /> <Badge v-bind="args">${args.default}</Badge> </Button> 
+    `,
+  }),
+  args: {
+    class: 'bg-pink-200 text-black',
+    floating: true,
+    default: ``,
+  },
+};
+
+export const Transparent: Story = {
+  render: (args) => ({
+    components: { Badge, Icon, Button },
+    setup() {
+      return { args };
+    },
+    template: `
+      <Button> Button <Badge v-bind="args">${args.default}</Badge> </Button> 
+    `,
+  }),
+  args: {
+    class: 'bg-yellow-600 text-white',
+    floating: true,
+    transparent: true,
+    default: `22`,
   },
 };
 
@@ -134,7 +187,7 @@ export const Rounded: Story = {
 
 export const Indicators: Story = {
   render: (args) => ({
-    components: { Badge },
+    components: { Badge, Button },
     setup() {
       return { args };
     },
