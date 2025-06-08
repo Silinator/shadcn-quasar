@@ -1,9 +1,9 @@
-import{I as B}from"./Icon-R8re-Sm4.js";import"./iframe-Cl3GtuK1.js";import"./_plugin-vue_export-helper-CqjgSE-H.js";const F={title:"UI/Icon",component:B,tags:["autodocs"]},a={args:{name:"font_download",size:"md"}},e={args:{name:"font_download",size:"md",class:"text-blue-500"}},s={args:{name:"font_download",size:"md",filled:!0}},o={args:{name:"font_download",size:"md",variant:"outlined"}},r={args:{name:"font_download",size:"md",variant:"sharp"}},n={args:{name:"font_download",class:"text-8xl"}};var t,d,m;a.parameters={...a.parameters,docs:{...(t=a.parameters)==null?void 0:t.docs,source:{originalSource:`{
+import{I as B}from"./Icon-D-G_kfN4.js";import"./iframe-BHw4DmT5.js";const b={title:"UI/Icon",component:B,tags:["autodocs"]},a={args:{name:"font_download",size:"md"}},e={args:{name:"font_download",size:"md",class:"text-blue-500"}},s={args:{name:"font_download",size:"md",filled:!0}},o={args:{name:"font_download",size:"md",variant:"outlined"}},r={args:{name:"font_download",size:"md",variant:"sharp"}},n={args:{name:"font_download",class:"text-8xl"}};var t,d,c;a.parameters={...a.parameters,docs:{...(t=a.parameters)==null?void 0:t.docs,source:{originalSource:`{
   args: {
     name: 'font_download',
     size: 'md'
   }
-}`,...(m=(d=a.parameters)==null?void 0:d.docs)==null?void 0:m.source}}};var c,i,l;e.parameters={...e.parameters,docs:{...(c=e.parameters)==null?void 0:c.docs,source:{originalSource:`{
+}`,...(c=(d=a.parameters)==null?void 0:d.docs)==null?void 0:c.source}}};var m,i,l;e.parameters={...e.parameters,docs:{...(m=e.parameters)==null?void 0:m.docs,source:{originalSource:`{
   args: {
     name: 'font_download',
     size: 'md',
@@ -32,4 +32,4 @@ import{I as B}from"./Icon-R8re-Sm4.js";import"./iframe-Cl3GtuK1.js";import"./_pl
     name: 'font_download',
     class: 'text-8xl'
   }
-}`,...(v=(h=n.parameters)==null?void 0:h.docs)==null?void 0:v.source}}};const E=["Basic","BasicCustomColors","Filled","Outlined","Sharp","CustomSize"];export{a as Basic,e as BasicCustomColors,n as CustomSize,s as Filled,o as Outlined,r as Sharp,E as __namedExportsOrder,F as default};
+}`,...(v=(h=n.parameters)==null?void 0:h.docs)==null?void 0:v.source}}};const F=["Basic","BasicCustomColors","Filled","Outlined","Sharp","CustomSize"];export{a as Basic,e as BasicCustomColors,n as CustomSize,s as Filled,o as Outlined,r as Sharp,F as __namedExportsOrder,b as default};

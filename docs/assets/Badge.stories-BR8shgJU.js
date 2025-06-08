@@ -1,4 +1,4 @@
-import{_ as n}from"./Badge-CdmzgXMV.js";import{_ as i}from"./Button-CD9nq8Vc.js";import{I as N}from"./Icon-R8re-Sm4.js";import"./iframe-Cl3GtuK1.js";import"./_plugin-vue_export-helper-CqjgSE-H.js";import"./Primitive-BMR7suFq.js";import"./ripple-CsoxYJ_M.js";const ne={title:"UI/Badge",component:n,tags:["autodocs"]},a={render:e=>({components:{Badge:n},setup(){return{args:e}},template:`
+import{_ as n}from"./Badge-CicZUiq3.js";import{_ as i}from"./Button-DQzFYzwM.js";import{I as N}from"./Icon-D-G_kfN4.js";import"./iframe-BHw4DmT5.js";import"./Primitive-tNcMv2JZ.js";import"./ripple-CsoxYJ_M.js";const ee={title:"UI/Badge",component:n,tags:["autodocs"]},a={render:e=>({components:{Badge:n},setup(){return{args:e}},template:`
       <Badge v-bind="args">${e.default}</Badge>
     `}),args:{default:"#007ABF"}},t={render:e=>({components:{Badge:n},setup(){return{args:e}},template:`
       <Badge v-bind="args">${e.default}</Badge>
@@ -249,4 +249,4 @@ import{_ as n}from"./Badge-CdmzgXMV.js";import{_ as i}from"./Button-CD9nq8Vc.js"
     class: 'bg-green-400',
     default: \`\`
   }
-}`,...(M=(L=p.parameters)==null?void 0:L.docs)==null?void 0:M.source}}};const ae=["Basic","BasisCustomColors","BasisWithIcon","Floating","FloatingIndicators","Transparent","Aligned","Transparant","OutlineDesign","Rounded","Indicators"];export{g as Aligned,a as Basic,t as BasisCustomColors,r as BasisWithIcon,s as Floating,o as FloatingIndicators,p as Indicators,c as OutlineDesign,l as Rounded,u as Transparant,d as Transparent,ae as __namedExportsOrder,ne as default};
+}`,...(M=(L=p.parameters)==null?void 0:L.docs)==null?void 0:M.source}}};const ne=["Basic","BasisCustomColors","BasisWithIcon","Floating","FloatingIndicators","Transparent","Aligned","Transparant","OutlineDesign","Rounded","Indicators"];export{g as Aligned,a as Basic,t as BasisCustomColors,r as BasisWithIcon,s as Floating,o as FloatingIndicators,p as Indicators,c as OutlineDesign,l as Rounded,u as Transparant,d as Transparent,ne as __namedExportsOrder,ee as default};
