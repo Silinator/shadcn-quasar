@@ -304,6 +304,23 @@ export const Disable: Story = {
   },
 };
 
+export const Loading: Story = {
+  render: (args) => ({
+    components: { Button },
+    setup() {
+      return { args };
+    },
+    template: `
+      <Button v-bind="args">${args.default}</Button>
+    `,
+  }),
+  args: {
+    class: 'bg-indigo-500',
+    loading: true,
+    default: `<Spinner size="sm"></Spinner> Disable Button`,
+  },
+};
+
 export const Alignment: Story = {
   render: (args) => ({
     components: { Button, Icon },
