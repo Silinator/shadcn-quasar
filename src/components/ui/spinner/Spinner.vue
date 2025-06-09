@@ -34,8 +34,6 @@ const props = withDefaults(defineProps<Props>(), {
   animation: spinner-dash 1.5s ease-in-out infinite;
 }
 
-/* Keyframes */
-
 @keyframes spinner-rotate {
   100% {
     transform: rotate(360deg);
