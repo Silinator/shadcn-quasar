@@ -1,4 +1,4 @@
-import{_ as n}from"./Badge-B82yHz1k.js";import{_ as i}from"./Button-bT7IEdo8.js";import{I as N}from"./Icon-Cj4XEEEw.js";import"./iframe-HJjqy3jf.js";import"./Primitive-DXfQsK0y.js";import"./ripple-CsoxYJ_M.js";const ee={title:"UI/Badge",component:n,tags:["autodocs"]},a={render:e=>({components:{Badge:n},setup(){return{args:e}},template:`
+import{_ as n}from"./Badge-_gS-z5p5.js";import{_ as i}from"./Button-B-obqn2i.js";import{I as N}from"./Icon-CkMnaiUD.js";import"./iframe-CLIydJoi.js";import"./Primitive-DlxtXT8L.js";import"./ripple-CsoxYJ_M.js";const ee={title:"UI/Badge",component:n,tags:["autodocs"]},a={render:e=>({components:{Badge:n},setup(){return{args:e}},template:`
       <Badge v-bind="args">${e.default}</Badge>
     `}),args:{default:"#007ABF"}},t={render:e=>({components:{Badge:n},setup(){return{args:e}},template:`
       <Badge v-bind="args">${e.default}</Badge>

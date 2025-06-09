@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import Icon from '@/components/ui/icon/Icon.vue';
+import Spinner from '@/components/ui/spinner/Spinner.vue';
 import type { Meta, StoryObj } from '@storybook/vue3-vite';
 
 const meta: Meta<typeof Button> = {
@@ -306,7 +307,7 @@ export const Disable: Story = {
 
 export const Loading: Story = {
   render: (args) => ({
-    components: { Button },
+    components: { Button, Spinner },
     setup() {
       return { args };
     },
