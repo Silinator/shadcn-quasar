@@ -1,4 +1,4 @@
-import{_ as t}from"./Button-DwYkCZkH.js";import{I as e}from"./Icon-_gnnmfaw.js";import{_ as _n}from"./Spinner-Cska6RfS.js";import"./iframe-C9yLdBLY.js";import"./ripple-CsoxYJ_M.js";import"./utils-CiSxPhq7.js";import"./Primitive-CrzxPzXy.js";const qn={title:"UI/Button",component:t,tags:["autodocs"]},r={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
+import{_ as t}from"./Button-CwnCKyvU.js";import{I as e}from"./Icon-CiWffMbQ.js";import{_ as Dn}from"./Spinner-COokYqRF.js";import"./iframe-CcFA4uLv.js";import"./ripple-CsoxYJ_M.js";import"./utils-CiSxPhq7.js";import"./Primitive-BaDlL3t_.js";const Fn={title:"UI/Button",component:t,tags:["autodocs"]},r={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
     `}),args:{class:"",default:"Standard"}},s={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
@@ -38,16 +38,18 @@ import{_ as t}from"./Button-DwYkCZkH.js";import{I as e}from"./Icon-_gnnmfaw.js";
       <Button v-bind="args">${n.default}</Button>
     `}),args:{class:"bg-lime-400 text-black text-6xl",size:"xs",default:'<Icon name="search" /> Button'}},$={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
-    `}),args:{class:"bg-red-500",disable:!0,default:"Disable Button"}},S={render:n=>({components:{Button:t,Spinner:_n},setup(){return{args:n}},template:`
+    `}),args:{class:"bg-red-500",disable:!0,default:"Disable Button"}},S={render:n=>({components:{Button:t,Spinner:Dn},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
     `}),args:{class:"bg-indigo-500",loading:!0,default:'<Spinner size="sm"></Spinner> Loading Button'}},x={render:n=>({components:{Button:t,Icon:e},setup(){return{args:n}},template:`
+      <Button v-bind="args">${n.default}</Button>
+    `}),args:{class:"bg-emerald-500",loading:!0,default:'Loading Button <Icon name="progress_activity" size="sm" class="animate-spin"/> '}},h={render:n=>({components:{Button:t,Icon:e},setup(){return{args:n}},template:`
       <div class="flex flex-row flex-wrap items-center gap-2">
         <Button v-bind="args">${n.default}</Button>
         <Button v-bind="args" align='left'>${n.default}</Button>
         <Button v-bind="args" align='between'>${n.default}</Button>
         <Button v-bind="args" align='around'>${n.default}</Button>
       </div>
-    `}),args:{class:"bg-pink-500 w-56",align:"right",default:'<Icon name="bolt" /> Alignment Button'}};var h,w,z;r.parameters={...r.parameters,docs:{...(h=r.parameters)==null?void 0:h.docs,source:{originalSource:`{
+    `}),args:{class:"bg-pink-500 w-56",align:"right",default:'<Icon name="bolt" /> Alignment Button'}};var I,z,w;r.parameters={...r.parameters,docs:{...(I=r.parameters)==null?void 0:I.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -65,7 +67,7 @@ import{_ as t}from"./Button-DwYkCZkH.js";import{I as e}from"./Icon-_gnnmfaw.js";
     class: '',
     default: \`Standard\`
   }
-}`,...(z=(w=r.parameters)==null?void 0:w.docs)==null?void 0:z.source}}};var I,_,C;s.parameters={...s.parameters,docs:{...(I=s.parameters)==null?void 0:I.docs,source:{originalSource:`{
+}`,...(w=(z=r.parameters)==null?void 0:z.docs)==null?void 0:w.source}}};var _,y,C;s.parameters={...s.parameters,docs:{...(_=s.parameters)==null?void 0:_.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -83,7 +85,7 @@ import{_ as t}from"./Button-DwYkCZkH.js";import{I as e}from"./Icon-_gnnmfaw.js";
     class: 'bg-blue-500 text-white',
     default: \`Standard\`
   }
-}`,...(C=(_=s.parameters)==null?void 0:_.docs)==null?void 0:C.source}}};var y,O,D;a.parameters={...a.parameters,docs:{...(y=a.parameters)==null?void 0:y.docs,source:{originalSource:`{
+}`,...(C=(y=s.parameters)==null?void 0:y.docs)==null?void 0:C.source}}};var O,D,L;a.parameters={...a.parameters,docs:{...(O=a.parameters)==null?void 0:O.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button,
@@ -102,7 +104,7 @@ import{_ as t}from"./Button-DwYkCZkH.js";import{I as e}from"./Icon-_gnnmfaw.js";
     class: 'bg-green-400 text-white',
     default: \`<Icon name="shopping_cart" filled size="sm" /> Standard\`
   }
-}`,...(D=(O=a.parameters)==null?void 0:O.docs)==null?void 0:D.source}}};var R,k,U;o.parameters={...o.parameters,docs:{...(R=o.parameters)==null?void 0:R.docs,source:{originalSource:`{
+}`,...(L=(D=a.parameters)==null?void 0:D.docs)==null?void 0:L.source}}};var R,k,W;o.parameters={...o.parameters,docs:{...(R=o.parameters)==null?void 0:R.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button,
@@ -122,7 +124,7 @@ import{_ as t}from"./Button-DwYkCZkH.js";import{I as e}from"./Icon-_gnnmfaw.js";
     round: true,
     default: \`<Icon name="shopping_cart" filled size="sm" />\`
   }
-}`,...(U=(k=o.parameters)==null?void 0:k.docs)==null?void 0:U.source}}};var q,A,F;u.parameters={...u.parameters,docs:{...(q=u.parameters)==null?void 0:q.docs,source:{originalSource:`{
+}`,...(W=(k=o.parameters)==null?void 0:k.docs)==null?void 0:W.source}}};var U,q,A;u.parameters={...u.parameters,docs:{...(U=u.parameters)==null?void 0:U.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -141,7 +143,7 @@ import{_ as t}from"./Button-DwYkCZkH.js";import{I as e}from"./Icon-_gnnmfaw.js";
     rounded: true,
     default: \`Rounded Button\`
   }
-}`,...(F=(A=u.parameters)==null?void 0:A.docs)==null?void 0:F.source}}};var G,L,N;d.parameters={...d.parameters,docs:{...(G=d.parameters)==null?void 0:G.docs,source:{originalSource:`{
+}`,...(A=(q=u.parameters)==null?void 0:q.docs)==null?void 0:A.source}}};var F,G,N;d.parameters={...d.parameters,docs:{...(F=d.parameters)==null?void 0:F.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button,
@@ -161,7 +163,7 @@ import{_ as t}from"./Button-DwYkCZkH.js";import{I as e}from"./Icon-_gnnmfaw.js";
     square: true,
     default: \`<Icon name="shopping_cart" filled size="sm" />\`
   }
-}`,...(N=(L=d.parameters)==null?void 0:L.docs)==null?void 0:N.source}}};var P,W,E;l.parameters={...l.parameters,docs:{...(P=l.parameters)==null?void 0:P.docs,source:{originalSource:`{
+}`,...(N=(G=d.parameters)==null?void 0:G.docs)==null?void 0:N.source}}};var P,E,j;l.parameters={...l.parameters,docs:{...(P=l.parameters)==null?void 0:P.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -180,7 +182,7 @@ import{_ as t}from"./Button-DwYkCZkH.js";import{I as e}from"./Icon-_gnnmfaw.js";
     flat: true,
     default: \`Flat Button\`
   }
-}`,...(E=(W=l.parameters)==null?void 0:W.docs)==null?void 0:E.source}}};var j,H,J;c.parameters={...c.parameters,docs:{...(j=c.parameters)==null?void 0:j.docs,source:{originalSource:`{
+}`,...(j=(E=l.parameters)==null?void 0:E.docs)==null?void 0:j.source}}};var H,J,K;c.parameters={...c.parameters,docs:{...(H=c.parameters)==null?void 0:H.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -199,7 +201,7 @@ import{_ as t}from"./Button-DwYkCZkH.js";import{I as e}from"./Icon-_gnnmfaw.js";
     outline: true,
     default: \`Outline Button\`
   }
-}`,...(J=(H=c.parameters)==null?void 0:H.docs)==null?void 0:J.source}}};var K,M,Q;p.parameters={...p.parameters,docs:{...(K=p.parameters)==null?void 0:K.docs,source:{originalSource:`{
+}`,...(K=(J=c.parameters)==null?void 0:J.docs)==null?void 0:K.source}}};var M,Q,T;p.parameters={...p.parameters,docs:{...(M=p.parameters)==null?void 0:M.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -219,7 +221,7 @@ import{_ as t}from"./Button-DwYkCZkH.js";import{I as e}from"./Icon-_gnnmfaw.js";
     rounded: true,
     default: \`Outline rounded Button\`
   }
-}`,...(Q=(M=p.parameters)==null?void 0:M.docs)==null?void 0:Q.source}}};var T,V,X;i.parameters={...i.parameters,docs:{...(T=i.parameters)==null?void 0:T.docs,source:{originalSource:`{
+}`,...(T=(Q=p.parameters)==null?void 0:Q.docs)==null?void 0:T.source}}};var V,X,Y;i.parameters={...i.parameters,docs:{...(V=i.parameters)==null?void 0:V.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -238,7 +240,7 @@ import{_ as t}from"./Button-DwYkCZkH.js";import{I as e}from"./Icon-_gnnmfaw.js";
     push: true,
     default: \`Push Button\`
   }
-}`,...(X=(V=i.parameters)==null?void 0:V.docs)==null?void 0:X.source}}};var Y,Z,nn;g.parameters={...g.parameters,docs:{...(Y=g.parameters)==null?void 0:Y.docs,source:{originalSource:`{
+}`,...(Y=(X=i.parameters)==null?void 0:X.docs)==null?void 0:Y.source}}};var Z,nn,tn;g.parameters={...g.parameters,docs:{...(Z=g.parameters)==null?void 0:Z.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -257,7 +259,7 @@ import{_ as t}from"./Button-DwYkCZkH.js";import{I as e}from"./Icon-_gnnmfaw.js";
     unelevated: true,
     default: \`Unelevated Button\`
   }
-}`,...(nn=(Z=g.parameters)==null?void 0:Z.docs)==null?void 0:nn.source}}};var tn,en,rn;m.parameters={...m.parameters,docs:{...(tn=m.parameters)==null?void 0:tn.docs,source:{originalSource:`{
+}`,...(tn=(nn=g.parameters)==null?void 0:nn.docs)==null?void 0:tn.source}}};var en,rn,sn;m.parameters={...m.parameters,docs:{...(en=m.parameters)==null?void 0:en.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -276,7 +278,7 @@ import{_ as t}from"./Button-DwYkCZkH.js";import{I as e}from"./Icon-_gnnmfaw.js";
     dense: true,
     default: \`Dense Button\`
   }
-}`,...(rn=(en=m.parameters)==null?void 0:en.docs)==null?void 0:rn.source}}};var sn,an,on;B.parameters={...B.parameters,docs:{...(sn=B.parameters)==null?void 0:sn.docs,source:{originalSource:`{
+}`,...(sn=(rn=m.parameters)==null?void 0:rn.docs)==null?void 0:sn.source}}};var an,on,un;B.parameters={...B.parameters,docs:{...(an=B.parameters)==null?void 0:an.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -295,7 +297,7 @@ import{_ as t}from"./Button-DwYkCZkH.js";import{I as e}from"./Icon-_gnnmfaw.js";
     noCaps: true,
     default: \`NoCaps Button\`
   }
-}`,...(on=(an=B.parameters)==null?void 0:an.docs)==null?void 0:on.source}}};var un,dn,ln;f.parameters={...f.parameters,docs:{...(un=f.parameters)==null?void 0:un.docs,source:{originalSource:`{
+}`,...(un=(on=B.parameters)==null?void 0:on.docs)==null?void 0:un.source}}};var dn,ln,cn;f.parameters={...f.parameters,docs:{...(dn=f.parameters)==null?void 0:dn.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -314,7 +316,7 @@ import{_ as t}from"./Button-DwYkCZkH.js";import{I as e}from"./Icon-_gnnmfaw.js";
     glossy: true,
     default: \`Glossy Button\`
   }
-}`,...(ln=(dn=f.parameters)==null?void 0:dn.docs)==null?void 0:ln.source}}};var cn,pn,gn;b.parameters={...b.parameters,docs:{...(cn=b.parameters)==null?void 0:cn.docs,source:{originalSource:`{
+}`,...(cn=(ln=f.parameters)==null?void 0:ln.docs)==null?void 0:cn.source}}};var pn,gn,mn;b.parameters={...b.parameters,docs:{...(pn=b.parameters)==null?void 0:pn.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button,
@@ -340,7 +342,7 @@ import{_ as t}from"./Button-DwYkCZkH.js";import{I as e}from"./Icon-_gnnmfaw.js";
     size: 'xs',
     default: \`<Icon name="search" /> Button\`
   }
-}`,...(gn=(pn=b.parameters)==null?void 0:pn.docs)==null?void 0:gn.source}}};var mn,Bn,fn;v.parameters={...v.parameters,docs:{...(mn=v.parameters)==null?void 0:mn.docs,source:{originalSource:`{
+}`,...(mn=(gn=b.parameters)==null?void 0:gn.docs)==null?void 0:mn.source}}};var Bn,fn,bn;v.parameters={...v.parameters,docs:{...(Bn=v.parameters)==null?void 0:Bn.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button,
@@ -360,7 +362,7 @@ import{_ as t}from"./Button-DwYkCZkH.js";import{I as e}from"./Icon-_gnnmfaw.js";
     size: 'xs',
     default: \`<Icon name="search" /> Button\`
   }
-}`,...(fn=(Bn=v.parameters)==null?void 0:Bn.docs)==null?void 0:fn.source}}};var bn,vn,$n;$.parameters={...$.parameters,docs:{...(bn=$.parameters)==null?void 0:bn.docs,source:{originalSource:`{
+}`,...(bn=(fn=v.parameters)==null?void 0:fn.docs)==null?void 0:bn.source}}};var vn,$n,Sn;$.parameters={...$.parameters,docs:{...(vn=$.parameters)==null?void 0:vn.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -379,7 +381,7 @@ import{_ as t}from"./Button-DwYkCZkH.js";import{I as e}from"./Icon-_gnnmfaw.js";
     disable: true,
     default: \`Disable Button\`
   }
-}`,...($n=(vn=$.parameters)==null?void 0:vn.docs)==null?void 0:$n.source}}};var Sn,xn,hn;S.parameters={...S.parameters,docs:{...(Sn=S.parameters)==null?void 0:Sn.docs,source:{originalSource:`{
+}`,...(Sn=($n=$.parameters)==null?void 0:$n.docs)==null?void 0:Sn.source}}};var xn,hn,In;S.parameters={...S.parameters,docs:{...(xn=S.parameters)==null?void 0:xn.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button,
@@ -399,7 +401,27 @@ import{_ as t}from"./Button-DwYkCZkH.js";import{I as e}from"./Icon-_gnnmfaw.js";
     loading: true,
     default: \`<Spinner size="sm"></Spinner> Loading Button\`
   }
-}`,...(hn=(xn=S.parameters)==null?void 0:xn.docs)==null?void 0:hn.source}}};var wn,zn,In;x.parameters={...x.parameters,docs:{...(wn=x.parameters)==null?void 0:wn.docs,source:{originalSource:`{
+}`,...(In=(hn=S.parameters)==null?void 0:hn.docs)==null?void 0:In.source}}};var zn,wn,_n;x.parameters={...x.parameters,docs:{...(zn=x.parameters)==null?void 0:zn.docs,source:{originalSource:`{
+  render: args => ({
+    components: {
+      Button,
+      Icon
+    },
+    setup() {
+      return {
+        args
+      };
+    },
+    template: \`
+      <Button v-bind="args">\${args.default}</Button>
+    \`
+  }),
+  args: {
+    class: 'bg-emerald-500',
+    loading: true,
+    default: \`Loading Button <Icon name="progress_activity" size="sm" class="animate-spin"/> \`
+  }
+}`,...(_n=(wn=x.parameters)==null?void 0:wn.docs)==null?void 0:_n.source}}};var yn,Cn,On;h.parameters={...h.parameters,docs:{...(yn=h.parameters)==null?void 0:yn.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button,
@@ -424,4 +446,4 @@ import{_ as t}from"./Button-DwYkCZkH.js";import{I as e}from"./Icon-_gnnmfaw.js";
     align: 'right',
     default: \`<Icon name="bolt" /> Alignment Button\`
   }
-}`,...(In=(zn=x.parameters)==null?void 0:zn.docs)==null?void 0:In.source}}};const An=["Standard","CustomColor","WithIcon","Round","Rounded","Square","Flat","Outline","OutlineRounded","Push","Unelevated","Dense","NoCaps","Glossy","Sizes","CustomSize","Disable","LoadingWithSpinner","Alignment"];export{x as Alignment,s as CustomColor,v as CustomSize,m as Dense,$ as Disable,l as Flat,f as Glossy,S as LoadingWithSpinner,B as NoCaps,c as Outline,p as OutlineRounded,i as Push,o as Round,u as Rounded,b as Sizes,d as Square,r as Standard,g as Unelevated,a as WithIcon,An as __namedExportsOrder,qn as default};
+}`,...(On=(Cn=h.parameters)==null?void 0:Cn.docs)==null?void 0:On.source}}};const Gn=["Standard","CustomColor","WithIcon","Round","Rounded","Square","Flat","Outline","OutlineRounded","Push","Unelevated","Dense","NoCaps","Glossy","Sizes","CustomSize","Disable","LoadingWithSpinner","LoadingWithIconSpinner","Alignment"];export{h as Alignment,s as CustomColor,v as CustomSize,m as Dense,$ as Disable,l as Flat,f as Glossy,x as LoadingWithIconSpinner,S as LoadingWithSpinner,B as NoCaps,c as Outline,p as OutlineRounded,i as Push,o as Round,u as Rounded,b as Sizes,d as Square,r as Standard,g as Unelevated,a as WithIcon,Gn as __namedExportsOrder,Fn as default};
