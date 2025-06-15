@@ -1,0 +1,1 @@
+.loader{animation:spinner-rotate 2s linear infinite}.spinner-path{stroke-dasharray:1,200;stroke-dashoffset:0;animation:spinner-dash 1.5s ease-in-out infinite}

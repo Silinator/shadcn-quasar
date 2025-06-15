@@ -1,4 +1,4 @@
-import{_ as t}from"./Button-j8v_ZvKI.js";import{I as e}from"./Icon-DPeEveKH.js";import{S as Cn}from"./Spinner-C-HYNwCn.js";import"./iframe-Dqrhj4_V.js";import"./ripple-CsoxYJ_M.js";import"./_plugin-vue_export-helper-CqjgSE-H.js";import"./Primitive-rW7MFCUy.js";const qn={title:"UI/Button",component:t,tags:["autodocs"]},r={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
+import{_ as t}from"./Button-CPEidZ2c.js";import{I as e}from"./Icon-mzf3dbHa.js";import{_ as _n}from"./Spinner-2tX3UrZZ.js";import"./iframe-CqwmNelb.js";import"./ripple-CsoxYJ_M.js";import"./utils-CiSxPhq7.js";import"./Primitive-BUJwNfVF.js";const qn={title:"UI/Button",component:t,tags:["autodocs"]},r={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
     `}),args:{class:"",default:"Standard"}},s={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
@@ -38,7 +38,7 @@ import{_ as t}from"./Button-j8v_ZvKI.js";import{I as e}from"./Icon-DPeEveKH.js";
       <Button v-bind="args">${n.default}</Button>
     `}),args:{class:"bg-lime-400 text-black text-6xl",size:"xs",default:'<Icon name="search" /> Button'}},$={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
-    `}),args:{class:"bg-red-500",disable:!0,default:"Disable Button"}},S={render:n=>({components:{Button:t,Spinner:Cn},setup(){return{args:n}},template:`
+    `}),args:{class:"bg-red-500",disable:!0,default:"Disable Button"}},S={render:n=>({components:{Button:t,Spinner:_n},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
     `}),args:{class:"bg-indigo-500",loading:!0,default:'<Spinner size="sm"></Spinner> Loading Button'}},x={render:n=>({components:{Button:t,Icon:e},setup(){return{args:n}},template:`
       <div class="flex flex-row flex-wrap items-center gap-2">
@@ -65,7 +65,7 @@ import{_ as t}from"./Button-j8v_ZvKI.js";import{I as e}from"./Icon-DPeEveKH.js";
     class: '',
     default: \`Standard\`
   }
-}`,...(z=(w=r.parameters)==null?void 0:w.docs)==null?void 0:z.source}}};var I,C,_;s.parameters={...s.parameters,docs:{...(I=s.parameters)==null?void 0:I.docs,source:{originalSource:`{
+}`,...(z=(w=r.parameters)==null?void 0:w.docs)==null?void 0:z.source}}};var I,_,C;s.parameters={...s.parameters,docs:{...(I=s.parameters)==null?void 0:I.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -83,7 +83,7 @@ import{_ as t}from"./Button-j8v_ZvKI.js";import{I as e}from"./Icon-DPeEveKH.js";
     class: 'bg-blue-500 text-white',
     default: \`Standard\`
   }
-}`,...(_=(C=s.parameters)==null?void 0:C.docs)==null?void 0:_.source}}};var y,O,D;a.parameters={...a.parameters,docs:{...(y=a.parameters)==null?void 0:y.docs,source:{originalSource:`{
+}`,...(C=(_=s.parameters)==null?void 0:_.docs)==null?void 0:C.source}}};var y,O,D;a.parameters={...a.parameters,docs:{...(y=a.parameters)==null?void 0:y.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button,
