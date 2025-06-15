@@ -31,25 +31,4 @@ const props = withDefaults(defineProps<Props>(), {
   stroke-dashoffset: 0;
   animation: spinner-dash 1.5s ease-in-out infinite;
 }
-
-@keyframes spinner-rotate {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes spinner-dash {
-  0% {
-    stroke-dasharray: 1, 200;
-    stroke-dashoffset: 0;
-  }
-  50% {
-    stroke-dasharray: 89, 200;
-    stroke-dashoffset: -35px;
-  }
-  100% {
-    stroke-dasharray: 89, 200;
-    stroke-dashoffset: -124px;
-  }
-}
 </style>
