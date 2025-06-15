@@ -21,7 +21,7 @@ const props = withDefaults(defineProps<Props>(), {
   </svg>
 </template>
 
-<style>
+<style scoped>
 .spinner-loader {
   animation: spinner-rotate 2s linear infinite;
 }
