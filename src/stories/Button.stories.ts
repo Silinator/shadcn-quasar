@@ -305,7 +305,7 @@ export const Disable: Story = {
   },
 };
 
-export const Loading: Story = {
+export const LoadingWithSpinner: Story = {
   render: (args) => ({
     components: { Button, Spinner },
     setup() {
@@ -318,7 +318,7 @@ export const Loading: Story = {
   args: {
     class: 'bg-indigo-500',
     loading: true,
-    default: `<Spinner size="sm"></Spinner> Disable Button`,
+    default: `<Spinner size="sm"></Spinner> Loading Button`,
   },
 };
 
