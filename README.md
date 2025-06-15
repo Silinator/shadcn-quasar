@@ -13,7 +13,7 @@ Components:
 - ❌ Bar
 - ❌ Breadcrumbs
 - ❌ Buttons
-  - 🚧 Button
+  - ✅ Button
   - ❌ Button Group
   - ❌ Dropdown Button
 - ❌ Card

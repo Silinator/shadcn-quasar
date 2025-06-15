@@ -322,6 +322,23 @@ export const LoadingWithSpinner: Story = {
   },
 };
 
+export const LoadingWithIconSpinner: Story = {
+  render: (args) => ({
+    components: { Button, Icon },
+    setup() {
+      return { args };
+    },
+    template: `
+      <Button v-bind="args">${args.default}</Button>
+    `,
+  }),
+  args: {
+    class: 'bg-emerald-500',
+    loading: true,
+    default: `Loading Button <Icon name="progress_activity" size="sm" class="animate-spin"/> `,
+  },
+};
+
 export const Alignment: Story = {
   render: (args) => ({
     components: { Button, Icon },
