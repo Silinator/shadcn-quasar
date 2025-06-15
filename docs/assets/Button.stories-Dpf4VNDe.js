@@ -1,4 +1,4 @@
-import{_ as t}from"./Button-B2y1tOcH.js";import{I as e}from"./Icon-D1OivEwd.js";import{_ as _n}from"./Spinner-CTBiWbiJ.js";import"./iframe-_COoCLc9.js";import"./ripple-CsoxYJ_M.js";import"./utils-CiSxPhq7.js";import"./Primitive-rFoOuZxw.js";const qn={title:"UI/Button",component:t,tags:["autodocs"]},r={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
+import{_ as t}from"./Button-Cz43LMWl.js";import{I as e}from"./Icon-6JLSt9bU.js";import{_ as _n}from"./Spinner-C34tlCjP.js";import"./iframe-C9p9Zjo-.js";import"./ripple-CsoxYJ_M.js";import"./utils-CiSxPhq7.js";import"./Primitive-DlGZuh7Y.js";const qn={title:"UI/Button",component:t,tags:["autodocs"]},r={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
     `}),args:{class:"",default:"Standard"}},s={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
