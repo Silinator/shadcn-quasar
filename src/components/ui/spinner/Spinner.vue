@@ -16,13 +16,13 @@ const props = withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-  <svg role="status" aria-live="polite" viewBox="25 25 50 50" class="loader" :class="cn(spinnerVariants(props), props.class)">
+  <svg role="status" aria-live="polite" viewBox="25 25 50 50" class="spinner-loader" :class="cn(spinnerVariants(props), props.class)">
     <circle class="spinner-path" cx="50" cy="50" r="20" fill="none" stroke="currentColor" :stroke-width="props.thickness" stroke-miterlimit="10" />
   </svg>
 </template>
 
 <style>
-.loader {
+.spinner-loader {
   animation: spinner-rotate 2s linear infinite;
 }
 
@@ -30,5 +30,26 @@ const props = withDefaults(defineProps<Props>(), {
   stroke-dasharray: 1, 200;
   stroke-dashoffset: 0;
   animation: spinner-dash 1.5s ease-in-out infinite;
+}
+
+@keyframes spinner-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinner-dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -124px;
+  }
 }
 </style>
