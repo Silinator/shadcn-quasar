@@ -64,7 +64,7 @@ Components:
 - ❌ Slide Item
 - ❌ Slide Transition
 - ❌ Space
-- 🚧 Spinners
+- ✅ Spinners
 - ❌ Splitter
 - ❌ Stepper
 - ❌ Table

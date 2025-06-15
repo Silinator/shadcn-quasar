@@ -54,3 +54,18 @@ export const Thickness: Story = {
     thickness: 3,
   },
 };
+
+export const Color: Story = {
+  render: (args) => ({
+    components: { Spinner },
+    setup() {
+      return { args };
+    },
+    template: `
+      <Spinner v-bind="args"></Spinner>
+    `,
+  }),
+  args: {
+    class: 'text-red-500',
+  },
+};
