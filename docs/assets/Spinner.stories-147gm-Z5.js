@@ -1,4 +1,4 @@
-import{_ as e}from"./Spinner-C34tlCjP.js";import"./iframe-C9p9Zjo-.js";import"./utils-CiSxPhq7.js";const h={title:"UI/Spinner",component:e,tags:["autodocs"]},r={render:n=>({components:{Spinner:e},setup(){return{args:n}},template:`
+import{_ as e}from"./Spinner-Cska6RfS.js";import"./iframe-C9yLdBLY.js";import"./utils-CiSxPhq7.js";const h={title:"UI/Spinner",component:e,tags:["autodocs"]},r={render:n=>({components:{Spinner:e},setup(){return{args:n}},template:`
       <Spinner v-bind="args"></Spinner>
     `}),args:{size:"md"}},s={render:n=>({components:{Spinner:e},setup(){return{args:n}},template:`
       <Spinner v-bind="args"></Spinner>
