@@ -1,8 +1,8 @@
-import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";import{_ as Dn}from"./Spinner-CCESbpIM.js";import"./iframe-BMSNz29s.js";import"./ripple-CsoxYJ_M.js";import"./utils-CiSxPhq7.js";import"./Primitive-67GciMkc.js";const Fn={title:"UI/Button",component:t,tags:["autodocs"]},r={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
+import{_ as t}from"./Button-m5-p7b8M.js";import{I as e}from"./Icon-B0fxx1uN.js";import{_ as Wn}from"./Spinner-SfEj2SUK.js";import"./iframe-Qclsnmki.js";import"./ripple-CsoxYJ_M.js";import"./utils-Dl4VZL6K.js";import"./Primitive-C6XvU_OZ.js";const En={title:"UI/Button",component:t,tags:["autodocs"]},r={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
-    `}),args:{class:"",default:"Standard"}},s={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
+    `}),args:{class:"bg-primary text-primary-foreground",default:"Standard"}},a={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
-    `}),args:{class:"bg-blue-500 text-white",default:"Standard"}},a={render:n=>({components:{Button:t,Icon:e},setup(){return{args:n}},template:`
+    `}),args:{class:"bg-blue-500 text-white",default:"Standard"}},s={render:n=>({components:{Button:t,Icon:e},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
     `}),args:{class:"bg-green-400 text-white",default:'<Icon name="shopping_cart" filled size="sm" /> Standard'}},o={render:n=>({components:{Button:t,Icon:e},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
@@ -12,21 +12,21 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
       <Button v-bind="args">${n.default}</Button>
     `}),args:{class:"bg-orange-500 text-white",square:!0,default:'<Icon name="shopping_cart" filled size="sm" />'}},l={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
-    `}),args:{class:"",flat:!0,default:"Flat Button"}},c={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
+    `}),args:{class:"text-primary",flat:!0,default:"Flat Button"}},c={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
-    `}),args:{class:"",outline:!0,default:"Outline Button"}},p={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
+    `}),args:{class:"text-primary",outline:!0,default:"Outline Button"}},p={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
-    `}),args:{class:"",outline:!0,rounded:!0,default:"Outline rounded Button"}},i={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
+    `}),args:{class:"text-primary",outline:!0,rounded:!0,default:"Outline rounded Button"}},i={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
     `}),args:{class:"bg-cyan-500 text-white",push:!0,default:"Push Button"}},g={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
-    `}),args:{class:"",unelevated:!0,default:"Unelevated Button"}},m={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
+    `}),args:{class:"bg-primary text-primary-foreground",unelevated:!0,default:"Unelevated Button"}},m={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
-    `}),args:{class:"",dense:!0,default:"Dense Button"}},B={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
+    `}),args:{class:"bg-primary text-primary-foreground",dense:!0,default:"Dense Button"}},B={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
-    `}),args:{class:"",noCaps:!0,default:"NoCaps Button"}},f={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
+    `}),args:{class:"bg-primary text-primary-foreground",noCaps:!0,default:"NoCaps Button"}},f={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
-    `}),args:{class:"bg-green-500",glossy:!0,default:"Glossy Button"}},b={render:n=>({components:{Button:t,Icon:e},setup(){return{args:n}},template:`
+    `}),args:{class:"bg-green-500 text-white",glossy:!0,default:"Glossy Button"}},b={render:n=>({components:{Button:t,Icon:e},setup(){return{args:n}},template:`
       <div class="flex flex-row items-center gap-2">
         <Button v-bind="args">${n.default}</Button>
         <Button v-bind="args" size="sm">${n.default}</Button>
@@ -36,20 +36,22 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
       </div>
     `}),args:{class:"bg-lime-400 text-black",size:"xs",default:'<Icon name="search" /> Button'}},v={render:n=>({components:{Button:t,Icon:e},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
-    `}),args:{class:"bg-lime-400 text-black text-6xl",size:"xs",default:'<Icon name="search" /> Button'}},$={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
+    `}),args:{class:"bg-lime-400 text-black text-6xl",size:"xs",default:'<Icon name="search" /> Button'}},x={render:n=>({components:{Button:t},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
-    `}),args:{class:"bg-red-500",disable:!0,default:"Disable Button"}},S={render:n=>({components:{Button:t,Spinner:Dn},setup(){return{args:n}},template:`
+    `}),args:{class:"bg-red-500 text-white",disable:!0,default:"Disable Button"}},$={render:n=>({components:{Button:t,Spinner:Wn},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
-    `}),args:{class:"bg-indigo-500",loading:!0,default:'<Spinner size="sm"></Spinner> Loading Button'}},x={render:n=>({components:{Button:t,Icon:e},setup(){return{args:n}},template:`
+    `}),args:{class:"bg-indigo-500 text-white",loading:!0,default:'<Spinner size="sm"></Spinner> Loading Button'}},S={render:n=>({components:{Button:t,Icon:e},setup(){return{args:n}},template:`
       <Button v-bind="args">${n.default}</Button>
-    `}),args:{class:"bg-emerald-500",loading:!0,default:'Loading Button <Icon name="progress_activity" size="sm" class="animate-spin"/> '}},h={render:n=>({components:{Button:t,Icon:e},setup(){return{args:n}},template:`
+    `}),args:{class:"bg-emerald-500 text-white",loading:!0,default:'Loading Button <Icon name="progress_activity" size="sm" class="animate-spin"/> '}},h={render:n=>({components:{Button:t,Icon:e},setup(){return{args:n}},template:`
       <div class="flex flex-row flex-wrap items-center gap-2">
         <Button v-bind="args">${n.default}</Button>
         <Button v-bind="args" align='left'>${n.default}</Button>
         <Button v-bind="args" align='between'>${n.default}</Button>
         <Button v-bind="args" align='around'>${n.default}</Button>
       </div>
-    `}),args:{class:"bg-pink-500 w-56",align:"right",default:'<Icon name="bolt" /> Alignment Button'}};var I,z,w;r.parameters={...r.parameters,docs:{...(I=r.parameters)==null?void 0:I.docs,source:{originalSource:`{
+    `}),args:{class:"bg-pink-500 text-white w-56",align:"right",default:'<Icon name="bolt" /> Alignment Button'}},w={render:n=>({components:{Button:t,Icon:e},setup(){return{args:n}},template:`
+      <Button v-bind="args">${n.default}</Button>
+    `}),args:{class:"bg-orange-500 text-white",stack:!0,default:'<Icon name="forklift" size="sm"/> Stacked Button'}};var y,I,z;r.parameters={...r.parameters,docs:{...(y=r.parameters)==null?void 0:y.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -64,10 +66,10 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
     \`
   }),
   args: {
-    class: '',
+    class: 'bg-primary text-primary-foreground',
     default: \`Standard\`
   }
-}`,...(w=(z=r.parameters)==null?void 0:z.docs)==null?void 0:w.source}}};var _,y,C;s.parameters={...s.parameters,docs:{...(_=s.parameters)==null?void 0:_.docs,source:{originalSource:`{
+}`,...(z=(I=r.parameters)==null?void 0:I.docs)==null?void 0:z.source}}};var _,k,C;a.parameters={...a.parameters,docs:{...(_=a.parameters)==null?void 0:_.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -85,7 +87,7 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
     class: 'bg-blue-500 text-white',
     default: \`Standard\`
   }
-}`,...(C=(y=s.parameters)==null?void 0:y.docs)==null?void 0:C.source}}};var O,D,L;a.parameters={...a.parameters,docs:{...(O=a.parameters)==null?void 0:O.docs,source:{originalSource:`{
+}`,...(C=(k=a.parameters)==null?void 0:k.docs)==null?void 0:C.source}}};var O,D,L;s.parameters={...s.parameters,docs:{...(O=s.parameters)==null?void 0:O.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button,
@@ -104,7 +106,7 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
     class: 'bg-green-400 text-white',
     default: \`<Icon name="shopping_cart" filled size="sm" /> Standard\`
   }
-}`,...(L=(D=a.parameters)==null?void 0:D.docs)==null?void 0:L.source}}};var R,k,W;o.parameters={...o.parameters,docs:{...(R=o.parameters)==null?void 0:R.docs,source:{originalSource:`{
+}`,...(L=(D=s.parameters)==null?void 0:D.docs)==null?void 0:L.source}}};var R,W,U;o.parameters={...o.parameters,docs:{...(R=o.parameters)==null?void 0:R.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button,
@@ -124,7 +126,7 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
     round: true,
     default: \`<Icon name="shopping_cart" filled size="sm" />\`
   }
-}`,...(W=(k=o.parameters)==null?void 0:k.docs)==null?void 0:W.source}}};var U,q,A;u.parameters={...u.parameters,docs:{...(U=u.parameters)==null?void 0:U.docs,source:{originalSource:`{
+}`,...(U=(W=o.parameters)==null?void 0:W.docs)==null?void 0:U.source}}};var q,A,F;u.parameters={...u.parameters,docs:{...(q=u.parameters)==null?void 0:q.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -143,7 +145,7 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
     rounded: true,
     default: \`Rounded Button\`
   }
-}`,...(A=(q=u.parameters)==null?void 0:q.docs)==null?void 0:A.source}}};var F,G,N;d.parameters={...d.parameters,docs:{...(F=d.parameters)==null?void 0:F.docs,source:{originalSource:`{
+}`,...(F=(A=u.parameters)==null?void 0:A.docs)==null?void 0:F.source}}};var G,N,P;d.parameters={...d.parameters,docs:{...(G=d.parameters)==null?void 0:G.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button,
@@ -163,7 +165,7 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
     square: true,
     default: \`<Icon name="shopping_cart" filled size="sm" />\`
   }
-}`,...(N=(G=d.parameters)==null?void 0:G.docs)==null?void 0:N.source}}};var P,E,j;l.parameters={...l.parameters,docs:{...(P=l.parameters)==null?void 0:P.docs,source:{originalSource:`{
+}`,...(P=(N=d.parameters)==null?void 0:N.docs)==null?void 0:P.source}}};var E,j,H;l.parameters={...l.parameters,docs:{...(E=l.parameters)==null?void 0:E.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -178,11 +180,11 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
     \`
   }),
   args: {
-    class: '',
+    class: 'text-primary',
     flat: true,
     default: \`Flat Button\`
   }
-}`,...(j=(E=l.parameters)==null?void 0:E.docs)==null?void 0:j.source}}};var H,J,K;c.parameters={...c.parameters,docs:{...(H=c.parameters)==null?void 0:H.docs,source:{originalSource:`{
+}`,...(H=(j=l.parameters)==null?void 0:j.docs)==null?void 0:H.source}}};var J,K,M;c.parameters={...c.parameters,docs:{...(J=c.parameters)==null?void 0:J.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -197,11 +199,11 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
     \`
   }),
   args: {
-    class: '',
+    class: 'text-primary',
     outline: true,
     default: \`Outline Button\`
   }
-}`,...(K=(J=c.parameters)==null?void 0:J.docs)==null?void 0:K.source}}};var M,Q,T;p.parameters={...p.parameters,docs:{...(M=p.parameters)==null?void 0:M.docs,source:{originalSource:`{
+}`,...(M=(K=c.parameters)==null?void 0:K.docs)==null?void 0:M.source}}};var Q,T,V;p.parameters={...p.parameters,docs:{...(Q=p.parameters)==null?void 0:Q.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -216,12 +218,12 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
     \`
   }),
   args: {
-    class: '',
+    class: 'text-primary',
     outline: true,
     rounded: true,
     default: \`Outline rounded Button\`
   }
-}`,...(T=(Q=p.parameters)==null?void 0:Q.docs)==null?void 0:T.source}}};var V,X,Y;i.parameters={...i.parameters,docs:{...(V=i.parameters)==null?void 0:V.docs,source:{originalSource:`{
+}`,...(V=(T=p.parameters)==null?void 0:T.docs)==null?void 0:V.source}}};var X,Y,Z;i.parameters={...i.parameters,docs:{...(X=i.parameters)==null?void 0:X.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -240,7 +242,7 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
     push: true,
     default: \`Push Button\`
   }
-}`,...(Y=(X=i.parameters)==null?void 0:X.docs)==null?void 0:Y.source}}};var Z,nn,tn;g.parameters={...g.parameters,docs:{...(Z=g.parameters)==null?void 0:Z.docs,source:{originalSource:`{
+}`,...(Z=(Y=i.parameters)==null?void 0:Y.docs)==null?void 0:Z.source}}};var nn,tn,en;g.parameters={...g.parameters,docs:{...(nn=g.parameters)==null?void 0:nn.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -255,11 +257,11 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
     \`
   }),
   args: {
-    class: '',
+    class: 'bg-primary text-primary-foreground',
     unelevated: true,
     default: \`Unelevated Button\`
   }
-}`,...(tn=(nn=g.parameters)==null?void 0:nn.docs)==null?void 0:tn.source}}};var en,rn,sn;m.parameters={...m.parameters,docs:{...(en=m.parameters)==null?void 0:en.docs,source:{originalSource:`{
+}`,...(en=(tn=g.parameters)==null?void 0:tn.docs)==null?void 0:en.source}}};var rn,an,sn;m.parameters={...m.parameters,docs:{...(rn=m.parameters)==null?void 0:rn.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -274,11 +276,11 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
     \`
   }),
   args: {
-    class: '',
+    class: 'bg-primary text-primary-foreground',
     dense: true,
     default: \`Dense Button\`
   }
-}`,...(sn=(rn=m.parameters)==null?void 0:rn.docs)==null?void 0:sn.source}}};var an,on,un;B.parameters={...B.parameters,docs:{...(an=B.parameters)==null?void 0:an.docs,source:{originalSource:`{
+}`,...(sn=(an=m.parameters)==null?void 0:an.docs)==null?void 0:sn.source}}};var on,un,dn;B.parameters={...B.parameters,docs:{...(on=B.parameters)==null?void 0:on.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -293,11 +295,11 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
     \`
   }),
   args: {
-    class: '',
+    class: 'bg-primary text-primary-foreground',
     noCaps: true,
     default: \`NoCaps Button\`
   }
-}`,...(un=(on=B.parameters)==null?void 0:on.docs)==null?void 0:un.source}}};var dn,ln,cn;f.parameters={...f.parameters,docs:{...(dn=f.parameters)==null?void 0:dn.docs,source:{originalSource:`{
+}`,...(dn=(un=B.parameters)==null?void 0:un.docs)==null?void 0:dn.source}}};var ln,cn,pn;f.parameters={...f.parameters,docs:{...(ln=f.parameters)==null?void 0:ln.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -312,11 +314,11 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
     \`
   }),
   args: {
-    class: 'bg-green-500',
+    class: 'bg-green-500 text-white',
     glossy: true,
     default: \`Glossy Button\`
   }
-}`,...(cn=(ln=f.parameters)==null?void 0:ln.docs)==null?void 0:cn.source}}};var pn,gn,mn;b.parameters={...b.parameters,docs:{...(pn=b.parameters)==null?void 0:pn.docs,source:{originalSource:`{
+}`,...(pn=(cn=f.parameters)==null?void 0:cn.docs)==null?void 0:pn.source}}};var gn,mn,Bn;b.parameters={...b.parameters,docs:{...(gn=b.parameters)==null?void 0:gn.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button,
@@ -342,7 +344,7 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
     size: 'xs',
     default: \`<Icon name="search" /> Button\`
   }
-}`,...(mn=(gn=b.parameters)==null?void 0:gn.docs)==null?void 0:mn.source}}};var Bn,fn,bn;v.parameters={...v.parameters,docs:{...(Bn=v.parameters)==null?void 0:Bn.docs,source:{originalSource:`{
+}`,...(Bn=(mn=b.parameters)==null?void 0:mn.docs)==null?void 0:Bn.source}}};var fn,bn,vn;v.parameters={...v.parameters,docs:{...(fn=v.parameters)==null?void 0:fn.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button,
@@ -362,7 +364,7 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
     size: 'xs',
     default: \`<Icon name="search" /> Button\`
   }
-}`,...(bn=(fn=v.parameters)==null?void 0:fn.docs)==null?void 0:bn.source}}};var vn,$n,Sn;$.parameters={...$.parameters,docs:{...(vn=$.parameters)==null?void 0:vn.docs,source:{originalSource:`{
+}`,...(vn=(bn=v.parameters)==null?void 0:bn.docs)==null?void 0:vn.source}}};var xn,$n,Sn;x.parameters={...x.parameters,docs:{...(xn=x.parameters)==null?void 0:xn.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button
@@ -377,11 +379,11 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
     \`
   }),
   args: {
-    class: 'bg-red-500',
+    class: 'bg-red-500 text-white',
     disable: true,
     default: \`Disable Button\`
   }
-}`,...(Sn=($n=$.parameters)==null?void 0:$n.docs)==null?void 0:Sn.source}}};var xn,hn,In;S.parameters={...S.parameters,docs:{...(xn=S.parameters)==null?void 0:xn.docs,source:{originalSource:`{
+}`,...(Sn=($n=x.parameters)==null?void 0:$n.docs)==null?void 0:Sn.source}}};var hn,wn,yn;$.parameters={...$.parameters,docs:{...(hn=$.parameters)==null?void 0:hn.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button,
@@ -397,11 +399,11 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
     \`
   }),
   args: {
-    class: 'bg-indigo-500',
+    class: 'bg-indigo-500 text-white',
     loading: true,
     default: \`<Spinner size="sm"></Spinner> Loading Button\`
   }
-}`,...(In=(hn=S.parameters)==null?void 0:hn.docs)==null?void 0:In.source}}};var zn,wn,_n;x.parameters={...x.parameters,docs:{...(zn=x.parameters)==null?void 0:zn.docs,source:{originalSource:`{
+}`,...(yn=(wn=$.parameters)==null?void 0:wn.docs)==null?void 0:yn.source}}};var In,zn,_n;S.parameters={...S.parameters,docs:{...(In=S.parameters)==null?void 0:In.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button,
@@ -417,11 +419,11 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
     \`
   }),
   args: {
-    class: 'bg-emerald-500',
+    class: 'bg-emerald-500 text-white',
     loading: true,
     default: \`Loading Button <Icon name="progress_activity" size="sm" class="animate-spin"/> \`
   }
-}`,...(_n=(wn=x.parameters)==null?void 0:wn.docs)==null?void 0:_n.source}}};var yn,Cn,On;h.parameters={...h.parameters,docs:{...(yn=h.parameters)==null?void 0:yn.docs,source:{originalSource:`{
+}`,...(_n=(zn=S.parameters)==null?void 0:zn.docs)==null?void 0:_n.source}}};var kn,Cn,On;h.parameters={...h.parameters,docs:{...(kn=h.parameters)==null?void 0:kn.docs,source:{originalSource:`{
   render: args => ({
     components: {
       Button,
@@ -442,8 +444,28 @@ import{_ as t}from"./Button-DJR_z5yd.js";import{I as e}from"./Icon-g_0tVZtb.js";
     \`
   }),
   args: {
-    class: 'bg-pink-500 w-56',
+    class: 'bg-pink-500 text-white w-56',
     align: 'right',
     default: \`<Icon name="bolt" /> Alignment Button\`
   }
-}`,...(On=(Cn=h.parameters)==null?void 0:Cn.docs)==null?void 0:On.source}}};const Gn=["Standard","CustomColor","WithIcon","Round","Rounded","Square","Flat","Outline","OutlineRounded","Push","Unelevated","Dense","NoCaps","Glossy","Sizes","CustomSize","Disable","LoadingWithSpinner","LoadingWithIconSpinner","Alignment"];export{h as Alignment,s as CustomColor,v as CustomSize,m as Dense,$ as Disable,l as Flat,f as Glossy,x as LoadingWithIconSpinner,S as LoadingWithSpinner,B as NoCaps,c as Outline,p as OutlineRounded,i as Push,o as Round,u as Rounded,b as Sizes,d as Square,r as Standard,g as Unelevated,a as WithIcon,Gn as __namedExportsOrder,Fn as default};
+}`,...(On=(Cn=h.parameters)==null?void 0:Cn.docs)==null?void 0:On.source}}};var Dn,Ln,Rn;w.parameters={...w.parameters,docs:{...(Dn=w.parameters)==null?void 0:Dn.docs,source:{originalSource:`{
+  render: args => ({
+    components: {
+      Button,
+      Icon
+    },
+    setup() {
+      return {
+        args
+      };
+    },
+    template: \`
+      <Button v-bind="args">\${args.default}</Button>
+    \`
+  }),
+  args: {
+    class: 'bg-orange-500 text-white',
+    stack: true,
+    default: \`<Icon name="forklift" size="sm"/> Stacked Button\`
+  }
+}`,...(Rn=(Ln=w.parameters)==null?void 0:Ln.docs)==null?void 0:Rn.source}}};const jn=["Standard","CustomColor","WithIcon","Round","Rounded","Square","Flat","Outline","OutlineRounded","Push","Unelevated","Dense","NoCaps","Glossy","Sizes","CustomSize","Disable","LoadingWithSpinner","LoadingWithIconSpinner","Alignment","Stacked"];export{h as Alignment,a as CustomColor,v as CustomSize,m as Dense,x as Disable,l as Flat,f as Glossy,S as LoadingWithIconSpinner,$ as LoadingWithSpinner,B as NoCaps,c as Outline,p as OutlineRounded,i as Push,o as Round,u as Rounded,b as Sizes,d as Square,w as Stacked,r as Standard,g as Unelevated,s as WithIcon,jn as __namedExportsOrder,En as default};
