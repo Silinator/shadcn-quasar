@@ -52,7 +52,7 @@ export const AudioSpinner: Story = {
     },
     template: `<SpinnerAudio v-bind="args" />`,
   }),
-  args: { class: '' },
+  args: { class: 'text-primary' },
   parameters: {
     docs: { source: { code: makeSource('SpinnerAudio') } },
   },

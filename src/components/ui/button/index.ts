@@ -3,15 +3,15 @@ import { cva, type VariantProps } from 'class-variance-authority';
 export { default as Button } from './Button.vue';
 
 export const buttonVariants = cva(
-  'bg-primary text-primary-foreground relative inline-flex cursor-pointer items-center gap-x-3 text-center font-medium select-none',
+  'relative inline-flex cursor-pointer items-center gap-x-3 bg-inherit text-center font-medium text-inherit select-none',
   {
     variants: {
       outline: {
-        true: 'text-primary border border-current bg-transparent',
+        true: 'border border-current bg-transparent text-inherit',
         false: '',
       },
       flat: {
-        true: 'text-primary bg-transparent',
+        true: 'bg-transparent text-inherit',
         false: '',
       },
       unelevated: {
@@ -19,11 +19,11 @@ export const buttonVariants = cva(
         false: '',
       },
       rounded: {
-        true: 'rounded-full',
-        false: 'rounded-sm',
+        true: 'rounded-full before:rounded-full',
+        false: 'rounded-sm before:rounded-sm',
       },
       round: {
-        true: 'rounded-[50%]',
+        true: 'rounded-[50%] before:rounded-[50%]',
         false: '',
       },
       square: {

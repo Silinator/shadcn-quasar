@@ -21,6 +21,7 @@ export const Basic: Story = {
     `,
   }),
   args: {
+    class: 'text-primary',
     size: 'md',
   },
 };
@@ -36,6 +37,7 @@ export const Size: Story = {
     `,
   }),
   args: {
+    class: 'text-primary',
     size: 'xl',
   },
 };
@@ -51,6 +53,7 @@ export const Thickness: Story = {
     `,
   }),
   args: {
+    class: 'text-primary',
     thickness: 3,
   },
 };

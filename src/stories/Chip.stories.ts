@@ -1,7 +1,7 @@
 import { Chip, ChipIcon, ChipRemoveButton } from '@/components/ui/chip';
 import Icon from '@/components/ui/icon/Icon.vue';
-import { fn } from 'storybook/test';
 import type { Meta, StoryObj } from '@storybook/vue3-vite';
+import { fn } from 'storybook/test';
 
 const meta: Meta<typeof Chip> = {
   title: 'UI/Chip',
@@ -23,7 +23,7 @@ export const Basic: Story = {
     `,
   }),
   args: {
-    class: 'bg-blue-500 text-white',
+    class: 'bg-primary text-primary-foreground',
     default: `#007ABF`,
   },
 };

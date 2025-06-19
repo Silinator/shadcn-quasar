@@ -5,7 +5,7 @@ export { default as ChipIcon } from './ChipIcon.vue';
 export { default as ChipRemoveButton } from './ChipRemoveButton.vue';
 
 export const chipVariants = cva(
-  'bg-primary-foreground text-primary relative m-1 inline-flex max-w-full items-center gap-2 outline-0 [&>i]:-m-1 [&>i]:text-[1.5em]',
+  'bg-inherit-foreground relative m-1 inline-flex max-w-full items-center gap-2 text-inherit outline-0 [&>i]:-m-1 [&>i]:text-[1.5em]',
   {
     variants: {
       dense: {
@@ -17,7 +17,7 @@ export const chipVariants = cva(
         false: '',
       },
       outline: {
-        true: 'text-primary border border-current bg-transparent',
+        true: 'border border-current bg-transparent text-inherit',
         false: '',
       },
       size: {

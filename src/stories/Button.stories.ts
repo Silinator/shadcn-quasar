@@ -23,7 +23,7 @@ export const Standard: Story = {
     `,
   }),
   args: {
-    class: '',
+    class: 'bg-primary text-primary-foreground',
     default: `Standard`,
   },
 };
@@ -122,7 +122,7 @@ export const Flat: Story = {
     `,
   }),
   args: {
-    class: '',
+    class: 'text-primary',
     flat: true,
     default: `Flat Button`,
   },
@@ -139,7 +139,7 @@ export const Outline: Story = {
     `,
   }),
   args: {
-    class: '',
+    class: 'text-primary',
     outline: true,
     default: `Outline Button`,
   },
@@ -156,7 +156,7 @@ export const OutlineRounded: Story = {
     `,
   }),
   args: {
-    class: '',
+    class: 'text-primary',
     outline: true,
     rounded: true,
     default: `Outline rounded Button`,
@@ -191,7 +191,7 @@ export const Unelevated: Story = {
     `,
   }),
   args: {
-    class: '',
+    class: 'bg-primary text-primary-foreground',
     unelevated: true,
     default: `Unelevated Button`,
   },
@@ -208,7 +208,7 @@ export const Dense: Story = {
     `,
   }),
   args: {
-    class: '',
+    class: 'bg-primary text-primary-foreground',
     dense: true,
     default: `Dense Button`,
   },
@@ -225,7 +225,7 @@ export const NoCaps: Story = {
     `,
   }),
   args: {
-    class: '',
+    class: 'bg-primary text-primary-foreground',
     noCaps: true,
     default: `NoCaps Button`,
   },
@@ -242,7 +242,7 @@ export const Glossy: Story = {
     `,
   }),
   args: {
-    class: 'bg-green-500',
+    class: 'bg-green-500 text-white',
     glossy: true,
     default: `Glossy Button`,
   },
@@ -299,7 +299,7 @@ export const Disable: Story = {
     `,
   }),
   args: {
-    class: 'bg-red-500',
+    class: 'bg-red-500 text-white',
     disable: true,
     default: `Disable Button`,
   },
@@ -316,7 +316,7 @@ export const LoadingWithSpinner: Story = {
     `,
   }),
   args: {
-    class: 'bg-indigo-500',
+    class: 'bg-indigo-500 text-white',
     loading: true,
     default: `<Spinner size="sm"></Spinner> Loading Button`,
   },
@@ -333,7 +333,7 @@ export const LoadingWithIconSpinner: Story = {
     `,
   }),
   args: {
-    class: 'bg-emerald-500',
+    class: 'bg-emerald-500 text-white',
     loading: true,
     default: `Loading Button <Icon name="progress_activity" size="sm" class="animate-spin"/> `,
   },
@@ -355,7 +355,7 @@ export const Alignment: Story = {
     `,
   }),
   args: {
-    class: 'bg-pink-500 w-56',
+    class: 'bg-pink-500 text-white w-56',
     align: 'right',
     default: `<Icon name="bolt" /> Alignment Button`,
   },
@@ -372,7 +372,7 @@ export const Stacked: Story = {
     `,
   }),
   args: {
-    class: 'bg-orange-500',
+    class: 'bg-orange-500 text-white',
     stack: true,
     default: `<Icon name="forklift" size="sm"/> Stacked Button`,
   },

@@ -23,6 +23,7 @@ export const Basic: Story = {
     `,
   }),
   args: {
+    class: 'bg-primary text-primary-foreground',
     default: `#007ABF`,
   },
 };
@@ -66,7 +67,7 @@ export const Floating: Story = {
       return { args };
     },
     template: `
-      <Button> Button <Badge v-bind="args">${args.default}</Badge> </Button> 
+      <Button class="bg-primary text-primary-foreground"> Button <Badge v-bind="args">${args.default}</Badge> </Button> 
     `,
   }),
   args: {
@@ -83,7 +84,7 @@ export const FloatingIndicators: Story = {
       return { args };
     },
     template: `
-      <Button round> <Icon name="notifications" size="sm" filled class="text-primary-foreground" /> <Badge v-bind="args">${args.default}</Badge> </Button> 
+      <Button round class="bg-primary text-primary-foreground"> <Icon name="notifications" size="sm" filled class="text-primary-foreground" /> <Badge v-bind="args">${args.default}</Badge> </Button> 
     `,
   }),
   args: {
@@ -100,7 +101,7 @@ export const Transparent: Story = {
       return { args };
     },
     template: `
-      <Button> Button <Badge v-bind="args">${args.default}</Badge> </Button> 
+      <Button class="bg-primary text-primary-foreground"> Button <Badge v-bind="args">${args.default}</Badge> </Button> 
     `,
   }),
   args: {
@@ -125,7 +126,7 @@ export const Aligned: Story = {
     `,
   }),
   args: {
-    class: 'bg-blue-600',
+    class: 'bg-blue-600 text-white',
     align: 'top',
     default: `app v1.8.7`,
   },
@@ -145,7 +146,7 @@ export const Transparant: Story = {
     `,
   }),
   args: {
-    class: 'bg-orange-600',
+    class: 'bg-orange-600 text-white',
     transparent: true,
     default: `app v1.8.7`,
   },
@@ -179,7 +180,7 @@ export const Rounded: Story = {
     `,
   }),
   args: {
-    class: 'bg-red-600',
+    class: 'bg-red-600 text-white',
     rounded: true,
     default: `Round`,
   },
@@ -199,7 +200,7 @@ export const Indicators: Story = {
     `,
   }),
   args: {
-    class: 'bg-green-400',
+    class: 'bg-green-400 text-white',
     default: ``,
   },
 };

@@ -21,6 +21,7 @@ export const Basic: Story = {
     template: `<Avatar v-bind="args">${args.default}</Avatar>`,
   }),
   args: {
+    class: 'bg-primary text-primary-foreground',
     default: `J`,
   },
 };
@@ -48,6 +49,7 @@ export const Rounded: Story = {
     template: `<Avatar v-bind="args">${args.default}</Avatar>`,
   }),
   args: {
+    class: 'bg-primary text-primary-foreground',
     rounded: true,
     default: `J`,
   },
@@ -62,6 +64,7 @@ export const Square: Story = {
     template: `<Avatar v-bind="args">${args.default}</Avatar>`,
   }),
   args: {
+    class: 'bg-primary text-primary-foreground',
     square: true,
     default: `J`,
   },
@@ -78,7 +81,7 @@ export const WithIcon: Story = {
     `,
   }),
   args: {
-    class: 'bg-green-500',
+    class: 'bg-green-500 text-white',
     size: 'xl',
     default: `<Icon name="directions" filled size="md" class="text-primary-foreground" />`,
   },
@@ -95,11 +98,11 @@ export const WithBadge: Story = {
     `,
   }),
   args: {
-    class: 'bg-green-500',
+    class: 'bg-green-500 text-white',
     size: 'xl',
     default: `
       J
-      <Badge floating rounded class="bg-blue-600">2</Badge>
+      <Badge floating rounded class="bg-blue-600 text-white">2</Badge>
     `,
   },
 };
@@ -115,7 +118,7 @@ export const WithIconAndBadge: Story = {
     `,
   }),
   args: {
-    class: 'bg-orange-500',
+    class: 'bg-orange-500 text-white',
     size: 'xl',
     square: true,
     default: `
@@ -153,7 +156,7 @@ export const WithImgFallback: Story = {
     `,
   }),
   args: {
-    class: 'bg-cyan-500',
+    class: 'bg-cyan-500 text-white',
     size: 'xl',
     default: `
       <AvatarImage src="https://cdn.quasar.dev/img/avatar-fail.png" />
@@ -173,12 +176,12 @@ export const WithImgFallbackAndBadge: Story = {
     `,
   }),
   args: {
-    class: 'bg-cyan-500',
+    class: 'bg-cyan-500 text-white',
     size: 'xl',
     default: `
       <AvatarImage src="https://cdn.quasar.dev/img/avatar.png" />
       <AvatarFallback>J</AvatarFallback>
-      <Badge floating class="bg-red-600">99+</Badge>
+      <Badge floating class="bg-red-600 text-white">99+</Badge>
     `,
   },
 };
@@ -192,7 +195,7 @@ export const CustomSize: Story = {
     template: `<Avatar v-bind="args">${args.default}</Avatar>`,
   }),
   args: {
-    class: 'h-24 w-24 text-6xl',
+    class: 'h-24 w-24 text-6xl bg-primary text-primary-foreground',
     default: `<Icon name="directions" filled size="xl" class="text-primary-foreground" />`,
   },
 };
