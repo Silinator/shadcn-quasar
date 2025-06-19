@@ -11,7 +11,7 @@ interface Props extends PrimitiveProps {
   flat?: boolean;
   unelevated?: boolean;
   rounded?: boolean;
-  round: boolean;
+  round?: boolean;
   push?: boolean;
   square?: boolean;
   glossy?: boolean;
