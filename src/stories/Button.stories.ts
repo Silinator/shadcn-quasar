@@ -360,3 +360,20 @@ export const Alignment: Story = {
     default: `<Icon name="bolt" /> Alignment Button`,
   },
 };
+
+export const Stacked: Story = {
+  render: (args) => ({
+    components: { Button, Icon },
+    setup() {
+      return { args };
+    },
+    template: `
+      <Button v-bind="args">${args.default}</Button>
+    `,
+  }),
+  args: {
+    class: 'bg-orange-500',
+    stack: true,
+    default: `<Icon name="forklift" size="sm"/> Stacked Button`,
+  },
+};

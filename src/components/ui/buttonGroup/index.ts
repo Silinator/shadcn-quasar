@@ -38,6 +38,10 @@ export const buttonGroupVariants = cva(
         true: '',
         false: '',
       },
+      stretch: {
+        true: 'self-stretch',
+        false: '',
+      },
     },
     compoundVariants: [
       {
@@ -57,6 +61,7 @@ export const buttonGroupVariants = cva(
       square: false,
       push: false,
       glossy: false,
+      stretch: false,
     },
   },
 );

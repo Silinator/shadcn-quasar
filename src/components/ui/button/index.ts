@@ -3,7 +3,7 @@ import { cva, type VariantProps } from 'class-variance-authority';
 export { default as Button } from './Button.vue';
 
 export const buttonVariants = cva(
-  'bg-primary text-primary-foreground relative inline-flex cursor-pointer items-center gap-3 text-center font-medium select-none',
+  'bg-primary text-primary-foreground relative inline-flex cursor-pointer items-center gap-x-3 text-center font-medium select-none',
   {
     variants: {
       outline: {
@@ -72,6 +72,14 @@ export const buttonVariants = cva(
         between: 'justify-between',
         around: 'justify-around',
         evenly: 'justify-evenly',
+      },
+      stack: {
+        true: 'flex-col',
+        false: 'flex-row',
+      },
+      stretch: {
+        true: 'self-stretch',
+        false: '',
       },
       loading: {
         true: 'cursor-default',
@@ -168,6 +176,8 @@ export const buttonVariants = cva(
       noCaps: false,
       noWrap: false,
       align: 'center',
+      stack: false,
+      stretch: false,
       loading: false,
       disable: false,
     },

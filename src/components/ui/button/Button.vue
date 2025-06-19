@@ -22,6 +22,8 @@ interface Props extends PrimitiveProps {
   noCaps?: boolean;
   noWrap?: boolean;
   align?: ButtonVariants['align'];
+  stack?: boolean;
+  stretch?: boolean;
   loading?: boolean;
   disable?: boolean;
   class?: HTMLAttributes['class'];
@@ -45,6 +47,8 @@ const props = withDefaults(defineProps<Props>(), {
   noCaps: false,
   noWrap: false,
   align: 'center',
+  stack: false,
+  stretch: false,
   ripple: true,
   loading: false,
   disable: false,
@@ -78,6 +82,8 @@ defineOptions({
           noCaps,
           noWrap,
           align,
+          stack,
+          stretch,
           loading,
           disable,
         }),

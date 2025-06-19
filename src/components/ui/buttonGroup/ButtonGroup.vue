@@ -13,6 +13,7 @@ interface Props extends PrimitiveProps {
   square?: boolean;
   push?: boolean;
   glossy?: boolean;
+  stretch?: boolean;
   class?: HTMLAttributes['class'];
 }
 
@@ -27,6 +28,7 @@ const props = withDefaults(defineProps<Props>(), {
   square: false,
   push: false,
   glossy: false,
+  stretch: false,
 });
 </script>
 
