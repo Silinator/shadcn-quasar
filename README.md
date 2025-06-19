@@ -63,7 +63,7 @@ Components:
 - ❌ Skeleton
 - ❌ Slide Item
 - ❌ Slide Transition
-- ❌ Space
+- ✅ Space
 - ✅ Spinners
 - ❌ Splitter
 - ❌ Stepper
@@ -71,7 +71,7 @@ Components:
 - ❌ Tabs
 - ❌ Tab Panels
 - ❌ Timeline
-- ❌ Toolbar
+- ✅ Toolbar
 - ❌ Tooltip
 - ❌ Tree
 - ❌ Uploader
