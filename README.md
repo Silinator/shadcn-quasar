@@ -14,7 +14,7 @@ Components:
 - ❌ Breadcrumbs
 - ❌ Buttons
   - ✅ Button
-  - ❌ Button Group
+  - ✅ Button Group
   - ❌ Dropdown Button
 - ❌ Card
 - ❌ Carousel
