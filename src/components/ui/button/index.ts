@@ -19,8 +19,8 @@ export const buttonVariants = cva(
         false: '',
       },
       rounded: {
-        true: 'rounded-full before:rounded-full',
-        false: 'rounded-sm before:rounded-sm',
+        true: '',
+        false: '',
       },
       round: {
         true: 'rounded-[50%] before:rounded-[50%]',
@@ -118,6 +118,23 @@ export const buttonVariants = cva(
         fab: false,
         fabMini: false,
         class: 'p-2.25',
+      },
+      {
+        rounded: true,
+        round: false,
+        class: 'rounded-full before:rounded-full',
+      },
+      {
+        rounded: false,
+        round: false,
+        stretch: true,
+        class: 'rounded-none',
+      },
+      {
+        rounded: false,
+        round: false,
+        stretch: false,
+        class: 'rounded-sm before:rounded-sm',
       },
       {
         flat: false,
