@@ -59,7 +59,7 @@ Components:
 - ❌ Rating
 - ❌ Responsive
 - ❌ Scroll Area
-- ❌ Separator
+- ✅ Separator
 - ❌ Skeleton
 - ❌ Slide Item
 - ❌ Slide Transition

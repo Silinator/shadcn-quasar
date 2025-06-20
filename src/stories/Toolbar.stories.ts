@@ -1,6 +1,7 @@
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Button } from '@/components/ui/button';
 import { Icon } from '@/components/ui/icon';
+import { Separator } from '@/components/ui/separator';
 import { Space } from '@/components/ui/space';
 import { Toolbar, ToolbarTitle } from '@/components/ui/toolbar';
 import type { Meta, StoryObj } from '@storybook/vue3-vite';
@@ -64,7 +65,7 @@ export const WithAvatar: Story = {
 
 export const WithLink: Story = {
   render: (args) => ({
-    components: { Toolbar, ToolbarTitle, Button, Icon, Space },
+    components: { Toolbar, ToolbarTitle, Button, Icon, Space, Separator },
     setup() {
       return { args };
     },
@@ -73,9 +74,10 @@ export const WithLink: Story = {
   args: {
     class: 'bg-blue-500 text-white',
     default: `
-      <Button flat round dense>
+      <Button flat round dense class="mr-2">
         <Icon name="menu" size="sm"/>
       </Button>
+      <Separator vertical inset />
       <ToolbarTitle>Link</ToolbarTitle>
       <Space />
       <Button flat stretch>Link</Button>
