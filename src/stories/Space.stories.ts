@@ -19,20 +19,21 @@ export const Basic: Story = {
     setup() {
       return { args };
     },
-    template: `<Toolbar v-bind="args">${args.default}</Toolbar>`,
-  }),
-  args: {
-    class: 'bg-primary text-primary-foreground',
-    default: `
+    template: `<Toolbar class="bg-primary text-primary-foreground">
       <Button flat round dense>
         <Icon name="menu" size="sm"/>
       </Button>
-      <Space />
+      <Space v-bind="args">${args.default}</Space>
       <Button flat round dense class="mr-2">
         <Icon name="apps" size="sm"/>
       </Button>
       <Button flat round dense>
         <Icon name="more_vert" size="sm"/>
-      </Button>`,
+      </Button>
+    </Toolbar>`,
+  }),
+  args: {
+    class: '',
+    default: ``,
   },
 };
