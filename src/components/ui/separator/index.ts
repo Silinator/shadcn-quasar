@@ -4,7 +4,7 @@ export { default as Separator } from './Separator.vue';
 export const separatorVariants = cva('relative', {
   variants: {
     hasContent: {
-      true: 'flex items-center text-xs text-current/50 before:mr-2 before:flex-1 before:border-t before:border-current/50 after:ml-2 after:flex-1 after:border-t after:border-current/50',
+      true: 'flex items-center text-xs text-current/50 uppercase before:mr-2 before:flex-1 before:border-t before:border-current/50 after:ml-2 after:flex-1 after:border-t after:border-current/50',
       false: 'border-0 bg-current/30',
     },
     spaced: {
