@@ -1,4 +1,4 @@
-import{_ as n}from"./Button-BnuKEOe1.js";import{I as a}from"./Icon-BT603QtT.js";import{_ as e}from"./index-CuYx0uXt.js";import{_ as t,a as s}from"./index-Dbl8Y42a.js";import"./iframe-D2uxEP-b.js";import"./ripple-CsoxYJ_M.js";import"./utils-Dl4VZL6K.js";import"./Primitive-D02sgVIr.js";const R={title:"UI/Separator",component:e,tags:["autodocs"]},o={render:r=>({components:{Toolbar:s,Button:n,Icon:a,Space:t,Separator:e},setup(){return{args:r}},template:`<div class="bg-primary text-primary-foreground">
+import{_ as n}from"./Button-arUxh_tr.js";import{I as a}from"./Icon-CmOWs1GY.js";import{_ as e}from"./index-Dss_HqzJ.js";import{_ as t}from"./index-D3rHwndS.js";import{_ as s}from"./index-l3ILG32y.js";import"./iframe-Ci_K8A6y.js";import"./ripple-CsoxYJ_M.js";import"./utils-Dl4VZL6K.js";import"./Primitive-D7oH2aoZ.js";const X={title:"UI/Separator",component:e,tags:["autodocs"]},o={render:r=>({components:{Toolbar:s,Button:n,Icon:a,Space:t,Separator:e},setup(){return{args:r}},template:`<div class="bg-primary text-primary-foreground">
       Text
       <Separator v-bind="args">${r.default}</Separator>
       Text
@@ -291,4 +291,4 @@ import{_ as n}from"./Button-BnuKEOe1.js";import{I as a}from"./Icon-BT603QtT.js";
     vertical: true,
     default: \`\`
   }
-}`,...(F=(D=g.parameters)==null?void 0:D.docs)==null?void 0:F.source}}};const X=["Basic","Spaced","Inset","CustomColor","WithLabel","WithLabelInset","Vertical","VerticalInset","VerticalInsetSpaced"];export{o as Basic,c as CustomColor,u as Inset,p as Spaced,l as Vertical,i as VerticalInset,g as VerticalInsetSpaced,m as WithLabel,d as WithLabelInset,X as __namedExportsOrder,R as default};
+}`,...(F=(D=g.parameters)==null?void 0:D.docs)==null?void 0:F.source}}};const Y=["Basic","Spaced","Inset","CustomColor","WithLabel","WithLabelInset","Vertical","VerticalInset","VerticalInsetSpaced"];export{o as Basic,c as CustomColor,u as Inset,p as Spaced,l as Vertical,i as VerticalInset,g as VerticalInsetSpaced,m as WithLabel,d as WithLabelInset,Y as __namedExportsOrder,X as default};

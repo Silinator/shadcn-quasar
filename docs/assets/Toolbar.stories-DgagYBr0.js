@@ -1,4 +1,4 @@
-import{a as S,b as h,_ as k}from"./index-BS4f7F1Z.js";import{_ as s}from"./Button-BnuKEOe1.js";import{I as l}from"./Icon-BT603QtT.js";import{_ as A}from"./index-CuYx0uXt.js";import{a as n,_ as u,b as c}from"./index-Dbl8Y42a.js";import"./utils-Dl4VZL6K.js";import"./iframe-D2uxEP-b.js";import"./Primitive-D02sgVIr.js";import"./ripple-CsoxYJ_M.js";const J={title:"UI/Toolbar",component:n,tags:["autodocs"]},a={render:t=>({components:{Toolbar:n,ToolbarTitle:c,Button:s,Icon:l,Space:u},setup(){return{args:t}},template:`<Toolbar v-bind="args">${t.default}</Toolbar>`}),args:{class:"bg-primary text-primary-foreground",default:`
+import{a as S,b as h,_ as k}from"./index-d7Bnonso.js";import{_ as s}from"./Button-arUxh_tr.js";import{I as l}from"./Icon-CmOWs1GY.js";import{_ as A}from"./index-Dss_HqzJ.js";import{_ as u}from"./index-D3rHwndS.js";import{_ as n,a as c}from"./index-l3ILG32y.js";import"./utils-Dl4VZL6K.js";import"./iframe-Ci_K8A6y.js";import"./Primitive-D7oH2aoZ.js";import"./ripple-CsoxYJ_M.js";const E={title:"UI/Toolbar",component:n,tags:["autodocs"]},a={render:t=>({components:{Toolbar:n,ToolbarTitle:c,Button:s,Icon:l,Space:u},setup(){return{args:t}},template:`<Toolbar v-bind="args">${t.default}</Toolbar>`}),args:{class:"bg-primary text-primary-foreground",default:`
       <Button flat round dense>
         <Icon name="menu" size="sm"/>
       </Button>
@@ -157,4 +157,4 @@ import{a as S,b as h,_ as k}from"./index-BS4f7F1Z.js";import{_ as s}from"./Butto
       \`,
     inset: true
   }
-}`,...(_=(I=r.parameters)==null?void 0:I.docs)==null?void 0:_.source}}};const E=["Basic","WithAvatar","WithLink","Inset"];export{a as Basic,r as Inset,e as WithAvatar,o as WithLink,E as __namedExportsOrder,J as default};
+}`,...(_=(I=r.parameters)==null?void 0:I.docs)==null?void 0:_.source}}};const O=["Basic","WithAvatar","WithLink","Inset"];export{a as Basic,r as Inset,e as WithAvatar,o as WithLink,O as __namedExportsOrder,E as default};
