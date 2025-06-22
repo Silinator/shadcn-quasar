@@ -10,7 +10,7 @@ Components:
 - ✅ Avatar
 - ✅ Badge
 - ❌ Banner
-- ❌ Bar
+- ✅ Bar
 - ❌ Breadcrumbs
 - ❌ Buttons
   - ✅ Button
