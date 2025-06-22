@@ -96,7 +96,7 @@ export const buttonVariants = cva(
         round: false,
         fab: false,
         fabMini: false,
-        class: 'min-h-[2em] px-2 py-0.5',
+        class: 'min-h-[2em] p-[.285em]',
       },
       {
         dense: false,
@@ -110,7 +110,7 @@ export const buttonVariants = cva(
         round: true,
         fab: false,
         fabMini: false,
-        class: 'p-0.5',
+        class: 'min-h-[2.4em] min-w-[2.4em] p-0',
       },
       {
         dense: false,
