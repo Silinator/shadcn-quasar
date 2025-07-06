@@ -2,7 +2,7 @@ import Spinner from '@/components/ui/spinner/Spinner.vue';
 import type { Meta, StoryObj } from '@storybook/vue3-vite';
 
 const meta: Meta<typeof Spinner> = {
-  title: 'UI/Spinner',
+  title: 'UI/Spinner/Spinner',
   component: Spinner,
   tags: ['autodocs'],
 };

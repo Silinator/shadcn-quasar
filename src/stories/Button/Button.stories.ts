@@ -4,7 +4,7 @@ import Spinner from '@/components/ui/spinner/Spinner.vue';
 import type { Meta, StoryObj } from '@storybook/vue3-vite';
 
 const meta: Meta<typeof Button> = {
-  title: 'UI/Button',
+  title: 'UI/Button/Button',
   component: Button,
   tags: ['autodocs'],
 };

@@ -1,10 +1,9 @@
-import { Button } from '@/components/ui/button';
-import { ButtonGroup } from '@/components/ui/buttonGroup';
+import { Button, ButtonGroup } from '@/components/ui/button/';
 import Icon from '@/components/ui/icon/Icon.vue';
 import type { Meta, StoryObj } from '@storybook/vue3-vite';
 
 const meta: Meta<typeof ButtonGroup> = {
-  title: 'UI/ButtonGroup',
+  title: 'UI/Button/ButtonGroup',
   component: ButtonGroup,
   tags: ['autodocs'],
 };

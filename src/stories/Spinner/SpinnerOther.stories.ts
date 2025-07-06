@@ -36,7 +36,7 @@ const makeSource = (componentName: string, extraArgs: Record<string, any> = {}) 
 };
 
 const meta: Meta<typeof SpinnerAudio> = {
-  title: 'UI/SpinnerOther',
+  title: 'UI/Spinner/OtherSpinner',
   component: SpinnerAudio,
   tags: ['autodocs'],
 };
