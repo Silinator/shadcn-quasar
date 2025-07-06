@@ -1,4 +1,4 @@
-import{_ as n}from"./Button-arUxh_tr.js";import{I as a}from"./Icon-CmOWs1GY.js";import{_ as e}from"./index-Dss_HqzJ.js";import{_ as t}from"./index-D3rHwndS.js";import{_ as s}from"./index-l3ILG32y.js";import"./iframe-Ci_K8A6y.js";import"./ripple-CsoxYJ_M.js";import"./utils-Dl4VZL6K.js";import"./Primitive-D7oH2aoZ.js";const X={title:"UI/Separator",component:e,tags:["autodocs"]},o={render:r=>({components:{Toolbar:s,Button:n,Icon:a,Space:t,Separator:e},setup(){return{args:r}},template:`<div class="bg-primary text-primary-foreground">
+import{_ as n}from"./Button-CQ3TqhJa.js";import{I as a}from"./Icon-C2XpxsoJ.js";import{_ as e}from"./index-B816xA-X.js";import{_ as t}from"./index-DMca8uMf.js";import{_ as s}from"./index-TTQPfDGi.js";import"./iframe-B7U9K8Xl.js";import"./ripple-CsoxYJ_M.js";import"./utils-Dl4VZL6K.js";import"./Primitive-DBp9tUYP.js";const X={title:"UI/Separator",component:e,tags:["autodocs"]},o={render:r=>({components:{Toolbar:s,Button:n,Icon:a,Space:t,Separator:e},setup(){return{args:r}},template:`<div class="bg-primary text-primary-foreground">
       Text
       <Separator v-bind="args">${r.default}</Separator>
       Text
