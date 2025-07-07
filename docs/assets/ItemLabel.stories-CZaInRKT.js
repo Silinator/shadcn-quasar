@@ -1,4 +1,4 @@
-import{a as l,b as i,_ as s,c as o}from"./index-Cn4uMyvJ.js";import"./utils-CiSxPhq7.js";import"./iframe-BrGLbD3W.js";import"./ripple-CsoxYJ_M.js";import"./Primitive-l8neErn6.js";const L={title:"UI/List/ItemLabel",component:l,tags:["autodocs"]},t={render:e=>({components:{List:o,Item:s,ItemSelection:i,ItemLabel:l},setup(){return{args:e}},template:`
+import{a as l,b as i,_ as s,c as o}from"./index-BvdQtne7.js";import"./utils-CiSxPhq7.js";import"./iframe-Cjbyr5I3.js";import"./ripple-CsoxYJ_M.js";import"./Primitive-SW5QjEaI.js";const L={title:"UI/List/ItemLabel",component:l,tags:["autodocs"]},t={render:e=>({components:{List:o,Item:s,ItemSelection:i,ItemLabel:l},setup(){return{args:e}},template:`
       <List bordered separator rounded class="text-primary">
         <Item>
           <ItemSelection>

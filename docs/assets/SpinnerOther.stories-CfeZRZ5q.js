@@ -1,4 +1,4 @@
-import{a as wn,b as zn,c as Jn,d as Kn,e as Ln,f as Mn,g as Nn,h as Qn,i as Vn,j as Wn,k as Xn,l as Yn,m as Zn,n as ne,o as ee,p as re,q as se,r as ae,s as te,t as oe,u as ce,v as pe}from"./Spinner-BmQk1k6s.js";import"./iframe-BrGLbD3W.js";import"./utils-CiSxPhq7.js";const e=(n,qn={})=>{const B=Object.entries(qn).map(([En,Un])=>`${En}="${Un}"`).join(`
+import{a as wn,b as zn,c as Jn,d as Kn,e as Ln,f as Mn,g as Nn,h as Qn,i as Vn,j as Wn,k as Xn,l as Yn,m as Zn,n as ne,o as ee,p as re,q as se,r as ae,s as te,t as oe,u as ce,v as pe}from"./Spinner-DoqNYYAY.js";import"./iframe-Cjbyr5I3.js";import"./utils-CiSxPhq7.js";const e=(n,qn={})=>{const B=Object.entries(qn).map(([En,Un])=>`${En}="${Un}"`).join(`
     `);return`<template>
     <${n}
       ${B?`${B}`:""}

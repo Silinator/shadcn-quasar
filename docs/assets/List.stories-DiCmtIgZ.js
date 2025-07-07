@@ -1,4 +1,4 @@
-import{_ as i}from"./index-kOxISux0.js";import{_ as c}from"./Badge-Cuk7Ko06.js";import{_ as K}from"./Button-Cy-Z5QPu.js";import{I as l}from"./Icon-ChlTDzKf.js";import{c as t,b as n,_ as a,a as s}from"./index-Cn4uMyvJ.js";import{_ as m}from"./index-CDMbwAem.js";import{_ as Q,a as X}from"./index-CSlQYkWX.js";import"./utils-CiSxPhq7.js";import"./iframe-BrGLbD3W.js";import"./Primitive-l8neErn6.js";import"./ripple-CsoxYJ_M.js";const oe={title:"UI/List/List",component:t,tags:["autodocs"]},o={render:e=>({components:{List:t,Item:a,ItemSelection:n},setup(){return{args:e}},template:`
+import{_ as i}from"./index-BRCIL0qD.js";import{_ as c}from"./Badge-CBP-oCyq.js";import{_ as K}from"./Button-DhWwYJNw.js";import{I as l}from"./Icon-COGPOkj0.js";import{c as t,b as n,_ as a,a as s}from"./index-BvdQtne7.js";import{_ as m}from"./index-DO6QPKCm.js";import{_ as Q,a as X}from"./index-BOGyzRGz.js";import"./utils-CiSxPhq7.js";import"./iframe-Cjbyr5I3.js";import"./Primitive-SW5QjEaI.js";import"./ripple-CsoxYJ_M.js";const oe={title:"UI/List/List",component:t,tags:["autodocs"]},o={render:e=>({components:{List:t,Item:a,ItemSelection:n},setup(){return{args:e}},template:`
       <List v-bind="args">${e.default}</List>
     `}),args:{bordered:!0,separator:!0,class:"text-primary",default:`
       <Item clickable ripple>
@@ -433,7 +433,7 @@ import{_ as i}from"./index-kOxISux0.js";import{_ as c}from"./Badge-Cuk7Ko06.js";
           </ItemLabel>
           <ItemLabel class="truncate mt-1 font-bold text-blue-500 uppercase">
             <span class="cursor-pointer">Open in GitHub</span>
-          </ItemLabell>
+          </ItemLabel>
         </ItemSelection>
 
         <ItemSelection top side>
@@ -472,7 +472,7 @@ import{_ as i}from"./index-kOxISux0.js";import{_ as c}from"./Badge-Cuk7Ko06.js";
           </ItemLabel>
           <ItemLabel class="truncate mt-1 font-bold text-blue-500 uppercase">
             <span class="cursor-pointer">Open in GitHub</span>
-          </ItemLabell>
+          </ItemLabel>
         </ItemSelection>
 
         <ItemSelection top side>
@@ -1244,7 +1244,7 @@ import{_ as i}from"./index-kOxISux0.js";import{_ as c}from"./Badge-Cuk7Ko06.js";
           </ItemLabel>
           <ItemLabel class="truncate mt-1 font-bold text-blue-500 uppercase">
             <span class="cursor-pointer">Open in GitHub</span>
-          </ItemLabell>
+          </ItemLabel>
         </ItemSelection>
 
         <ItemSelection top side>
@@ -1283,7 +1283,7 @@ import{_ as i}from"./index-kOxISux0.js";import{_ as c}from"./Badge-Cuk7Ko06.js";
           </ItemLabel>
           <ItemLabel class="truncate mt-1 font-bold text-blue-500 uppercase">
             <span class="cursor-pointer">Open in GitHub</span>
-          </ItemLabell>
+          </ItemLabel>
         </ItemSelection>
 
         <ItemSelection top side>

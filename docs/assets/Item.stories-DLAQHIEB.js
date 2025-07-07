@@ -1,4 +1,4 @@
-import{_ as r,a as m,b as i,c as l}from"./index-Cn4uMyvJ.js";import"./utils-CiSxPhq7.js";import"./iframe-BrGLbD3W.js";import"./ripple-CsoxYJ_M.js";import"./Primitive-l8neErn6.js";const b={title:"UI/List/Item",component:r,tags:["autodocs"]},t={render:e=>({components:{List:l,Item:r,ItemSelection:i,ItemLabel:m},setup(){return{args:e}},template:`
+import{_ as r,a as m,b as i,c as l}from"./index-BvdQtne7.js";import"./utils-CiSxPhq7.js";import"./iframe-Cjbyr5I3.js";import"./ripple-CsoxYJ_M.js";import"./Primitive-SW5QjEaI.js";const b={title:"UI/List/Item",component:r,tags:["autodocs"]},t={render:e=>({components:{List:l,Item:r,ItemSelection:i,ItemLabel:m},setup(){return{args:e}},template:`
       <List bordered separator rounded class="text-primary">
         <Item v-bind="args">${e.default}</item>
         <Item v-bind="args">${e.default}</item>

@@ -1,4 +1,4 @@
-import{_ as s}from"./Button-Cy-Z5QPu.js";import{I as m}from"./Icon-ChlTDzKf.js";import{_ as r}from"./index-DnlcJLGd.js";import{a as c}from"./index-CSlQYkWX.js";import"./iframe-BrGLbD3W.js";import"./ripple-CsoxYJ_M.js";import"./utils-CiSxPhq7.js";import"./Primitive-l8neErn6.js";const _={title:"UI/Space",component:r,tags:["autodocs"]},n={render:o=>({components:{Toolbar:c,Button:s,Icon:m,Space:r},setup(){return{args:o}},template:`<Toolbar class="bg-primary text-primary-foreground">
+import{_ as s}from"./Button-DhWwYJNw.js";import{I as m}from"./Icon-COGPOkj0.js";import{_ as r}from"./index-DFi1pPWr.js";import{a as c}from"./index-BOGyzRGz.js";import"./iframe-Cjbyr5I3.js";import"./ripple-CsoxYJ_M.js";import"./utils-CiSxPhq7.js";import"./Primitive-SW5QjEaI.js";const _={title:"UI/Space",component:r,tags:["autodocs"]},n={render:o=>({components:{Toolbar:c,Button:s,Icon:m,Space:r},setup(){return{args:o}},template:`<Toolbar class="bg-primary text-primary-foreground">
       <Button flat round dense>
         <Icon name="menu" size="sm"/>
       </Button>
