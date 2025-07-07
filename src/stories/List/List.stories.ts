@@ -589,7 +589,7 @@ export const EMailGoogleInboxstyle: Story = {
           </ItemLabel>
           <ItemLabel class="truncate mt-1 font-bold text-blue-500 uppercase">
             <span class="cursor-pointer">Open in GitHub</span>
-          </ItemLabell>
+          </ItemLabel>
         </ItemSelection>
 
         <ItemSelection top side>
@@ -628,7 +628,7 @@ export const EMailGoogleInboxstyle: Story = {
           </ItemLabel>
           <ItemLabel class="truncate mt-1 font-bold text-blue-500 uppercase">
             <span class="cursor-pointer">Open in GitHub</span>
-          </ItemLabell>
+          </ItemLabel>
         </ItemSelection>
 
         <ItemSelection top side>
