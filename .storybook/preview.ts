@@ -7,6 +7,29 @@ const preview: Preview = {
   parameters: {
     options: {
       panelPosition: 'right',
+      storySort: {
+        order: [
+          'UI',
+          [
+            'Avatar',
+            'Badge',
+            'Bar',
+            'Button',
+            ['Button', 'ButtonGroup'],
+            'Chip',
+            'Icon',
+            'List',
+            ['List', 'Item', 'ItemSelection', 'ItemLabel'],
+            'Icon',
+            'Separator',
+            'Spinner',
+            ['Spinner', 'OtherSpinner'],
+            'Space',
+            'Toolbar',
+          ],
+        ],
+        method: 'alphabetical',
+      },
     },
   },
   decorators: [

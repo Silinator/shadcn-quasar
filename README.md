@@ -48,7 +48,7 @@ Components:
 - ❌ Intersection
 - ❌ Knob
 - ❌ Linear Progress
-- ❌ List and List Items
+- ✅ List and List Items
 - ❌ Markup Table
 - ❌ Menu
 - ❌ Pagination
