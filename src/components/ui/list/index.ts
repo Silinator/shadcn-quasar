@@ -4,7 +4,7 @@ export { default as List } from './List.vue';
 export const listVariants = cva('relative text-sm', {
   variants: {
     separator: {
-      true: '[&>*:not(:first-child)]:border-t [&>*:not(:first-child)]:border-current/12',
+      true: '[&.dark>*:not(:first-child)]:border-current/28 [&>*:not(:first-child)]:border-t [&>*:not(:first-child)]:border-current/12 dark:[&>*:not(:first-child)]:border-current/28',
       false: '',
     },
     padding: {
@@ -12,7 +12,7 @@ export const listVariants = cva('relative text-sm', {
       false: '',
     },
     bordered: {
-      true: 'border border-current/12',
+      true: 'border border-current/12 dark:border-current/28 [&.dark]:border-current/28',
       false: '',
     },
     rounded: {
