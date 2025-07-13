@@ -75,5 +75,5 @@ Components:
 - ❌ Tooltip
 - ❌ Tree
 - ❌ Uploader
-- ❌ Video
+- ✅ Video
 - ❌ Virtual Scroll

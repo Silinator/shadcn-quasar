@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardActions, CardSection } from '@/components/ui/card/';
 import { Separator } from '@/components/ui/separator';
+import { VideoFrame } from '@/components/ui/videoFrame';
 import type { Meta, StoryObj } from '@storybook/vue3-vite';
 
 const meta: Meta<typeof Card> = {
@@ -176,9 +177,9 @@ export const MediaContent: Story = {
   },
 };
 
-export const BasicHorizontal: Story = {
+export const Video: Story = {
   render: (args) => ({
-    components: { Card, CardSection, CardActions, Separator, Button },
+    components: { Card, CardSection, CardActions, Separator, VideoFrame },
     setup() {
       return { args };
     },
@@ -187,9 +188,9 @@ export const BasicHorizontal: Story = {
     `,
   }),
   args: {
-    class: 'bg-background text-background-foreground w-full max-w-[250px]',
+    class: 'bg-background text-background-foreground w-full max-w-[300px]',
     default: `
-      <img src="https://cdn.quasar.dev/img/mountains.jpg"/>
+      <VideoFrame src="https://www.youtube.com/embed/dQw4w9WgXcQ"/>
 
       <CardSection>
         <div class="text-xl font-medium leading-8">Our Changing Planet</div>
