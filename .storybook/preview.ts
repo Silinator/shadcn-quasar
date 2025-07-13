@@ -13,6 +13,7 @@ const preview: Preview = {
           [
             'Avatar',
             'Badge',
+            'Banner',
             'Bar',
             'Button',
             ['Button', 'ButtonGroup'],
@@ -28,6 +29,7 @@ const preview: Preview = {
             ['Spinner', 'OtherSpinner'],
             'Space',
             'Toolbar',
+            'VideoFrame',
           ],
         ],
         method: 'alphabetical',
