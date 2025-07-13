@@ -9,7 +9,7 @@ Components:
 - ❌ Ajax Bar
 - ✅ Avatar
 - ✅ Badge
-- ❌ Banner
+- ✅ Banner
 - ✅ Bar
 - ❌ Breadcrumbs
 - ❌ Buttons
