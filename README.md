@@ -16,7 +16,7 @@ Components:
   - ✅ Button
   - ✅ Button Group
   - ❌ Dropdown Button
-- ❌ Card
+- ✅ Card
 - ❌ Carousel
 - ❌ Chat Message
 - ✅ Chip

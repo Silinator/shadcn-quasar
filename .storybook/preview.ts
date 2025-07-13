@@ -16,6 +16,8 @@ const preview: Preview = {
             'Bar',
             'Button',
             ['Button', 'ButtonGroup'],
+            'Card',
+            ['Card', 'CardSection', 'CardActions'],
             'Chip',
             'Icon',
             'List',
