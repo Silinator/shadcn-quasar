@@ -70,7 +70,7 @@ Components:
 - ❌ Table
 - ❌ Tabs
 - ❌ Tab Panels
-- ❌ Timeline
+- ✅ Timeline
 - ✅ Toolbar
 - ❌ Tooltip
 - ❌ Tree

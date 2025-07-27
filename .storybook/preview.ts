@@ -28,6 +28,8 @@ const preview: Preview = {
             'Spinner',
             ['Spinner', 'OtherSpinner'],
             'Space',
+            'Timeline',
+            ['Timeline', 'TimelineEntry', 'TimelineEntryDot', 'TimelineEntrySubTitle', 'TimelineEntryContent', 'TimelineEntryTitle'],
             'Toolbar',
             'VideoFrame',
           ],
